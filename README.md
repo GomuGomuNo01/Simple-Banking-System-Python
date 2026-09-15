@@ -3,7 +3,9 @@
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-9.6-4479A1?logo=mysql&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-3.0-150458?logo=pandas&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-16%20r%C3%A9ussis-2ea44f)
+![Power BI](https://img.shields.io/badge/Power%20BI-PBIP-F2C811?logo=powerbi&logoColor=black)
+![Tests](https://img.shields.io/badge/tests-18%20r%C3%A9ussis-2ea44f)
+![Licence](https://img.shields.io/badge/licence-MIT-blue)
 
 Projet de Data Analyst mené de bout en bout : d'une application bancaire qui produit les données jusqu'aux recommandations présentées à la direction.
 
@@ -14,9 +16,11 @@ Projet de Data Analyst mené de bout en bout : d'une application bancaire qui pr
 | **Contexte** | SBS Bank, néobanque fictive lancée en janvier 2025, s'interroge après 18 mois sur la qualité de sa croissance |
 | **Problématique** | La croissance repose-t-elle sur des clients qui utilisent réellement leur compte, et où agir en priorité ? |
 | **Données** | 1 800 clients, 1 881 comptes, environ 254 000 opérations et 141 000 transactions, plus un export CRM à nettoyer |
-| **Démarche** | Cadrage, modélisation MySQL, chargement, nettoyage SQL, contrôles qualité, 12 questions métier en SQL, statistiques et segmentation en Python |
+| **Démarche** | Cadrage, modélisation MySQL, chargement, nettoyage SQL, contrôles qualité, 12 questions métier en SQL, statistiques et segmentation en Python, tableau de bord Power BI |
 | **Résultat clé** | Les clients apportés par les partenaires sont 2,4 fois moins nombreux à alimenter leur compte sous 7 jours (35 % contre 84 %) |
-| **Livrables** | Base documentée, requêtes SQL, notebook commenté, 6 recommandations priorisées, listes d'actions pour le CRM |
+| **Livrables** | Base documentée, requêtes SQL, notebook commenté, tableau de bord Power BI de 4 pages, 6 recommandations priorisées, listes d'actions pour le CRM |
+
+![Tableau de bord Power BI : vue d'ensemble](reports/powerbi/01_vue_ensemble.png)
 
 ## Sommaire
 
@@ -30,13 +34,15 @@ Projet de Data Analyst mené de bout en bout : d'une application bancaire qui pr
 8. [Rôle de SQL et de Python](#8-rôle-de-sql-et-de-python)
 9. [Analyses réalisées](#9-analyses-réalisées)
 10. [Principaux résultats](#10-principaux-résultats)
-11. [Enseignements](#11-enseignements)
-12. [Recommandations métier](#12-recommandations-métier)
-13. [Limites](#13-limites)
-14. [Pistes d'amélioration](#14-pistes-damélioration)
-15. [Structure du dépôt](#15-structure-du-dépôt)
-16. [Installation et exécution](#16-installation-et-exécution)
-17. [Compétences démontrées](#17-compétences-démontrées)
+11. [Tableau de bord Power BI](#11-tableau-de-bord-power-bi)
+12. [Enseignements](#12-enseignements)
+13. [Recommandations métier](#13-recommandations-métier)
+14. [Limites](#14-limites)
+15. [Pistes d'amélioration](#15-pistes-damélioration)
+16. [Structure du dépôt](#16-structure-du-dépôt)
+17. [Installation et exécution](#17-installation-et-exécution)
+18. [Compétences démontrées](#18-compétences-démontrées)
+19. [Licence](#licence)
 
 ## 1. Contexte métier
 
@@ -114,7 +120,9 @@ flowchart LR
     F -- validés --> G[Vues analytiques]
     G --> H[12 questions<br/>métier en SQL]
     H --> I[Statistiques et<br/>segmentation Python]
+    G --> K[Modèle en étoile<br/>Power BI]
     I --> J[Recommandations]
+    K --> J
 ```
 
 Principes suivis :
@@ -139,8 +147,9 @@ Principes suivis :
 | 7 | Qualité | 10 contrôles d'intégrité et bilan du nettoyage | `sql/03_data_quality_checks.sql`, `reports/data_quality_report.md` |
 | 8 | Couche analytique | Vues par compte et par mois | `sql/04_analytics_views.sql` |
 | 9 | Analyse | 12 questions métier, test statistique, cohortes, segmentation RFM | `sql/05_business_analysis.sql`, `notebooks/` |
-| 10 | Restitution | Graphiques, recommandations, listes d'actions | `reports/`, ce README |
-| 11 | Fiabilité | 16 tests unitaires et d'intégration | `tests/` |
+| 10 | Tableau de bord | Export en étoile, modèle sémantique, mesures DAX, rapport de 4 pages | `sql/06_powerbi_export.sql`, `powerbi/` |
+| 11 | Restitution | Graphiques, recommandations, listes d'actions | `reports/`, ce README |
+| 12 | Fiabilité | 18 tests unitaires et d'intégration | `tests/` |
 
 ## 7. Outils et technologies
 
@@ -151,6 +160,7 @@ Principes suivis :
 | Accès aux données | PyMySQL, SQLAlchemy |
 | Analyse | pandas, NumPy, SciPy |
 | Visualisation | Matplotlib |
+| Business Intelligence | Power BI Desktop (projet PBIP : Power Query, modèle TMDL, DAX, rapport PBIR) |
 | Génération de données | Faker, NumPy |
 | Notebook | Jupyter |
 | Tests | pytest |
@@ -171,6 +181,8 @@ Chaque traitement est fait là où il est le plus simple, le plus fiable et le p
 | | Produire les graphiques et les exports |
 
 Les requêtes restent dans des fichiers `.sql` et le notebook les exécute par leur nom : **le SQL est la source unique**, lisible et exécutable directement dans l'IDE.
+
+**Et Power BI ?** Il intervient en bout de chaîne, pour le pilotage. SQL agrège les tables de faits à partir des vues analytiques, Python y ajoute les segments RFM (même fonction que le notebook) et les libellés, puis Power BI calcule les indicateurs en DAX et les rend filtrables par un utilisateur métier.
 
 ## 9. Analyses réalisées
 
@@ -233,7 +245,74 @@ Les refus de paiement pour solde insuffisant représentent 58 % de tous les éch
 
 Autres graphiques : [croissance mensuelle](reports/figures/02_croissance_mensuelle.png), [statut des comptes](reports/figures/01_statut_des_comptes.png), [concentration des encours](reports/figures/05_concentration_des_encours.png), [dépenses par catégorie](reports/figures/06_depenses_par_categorie.png).
 
-## 11. Enseignements
+## 11. Tableau de bord Power BI
+
+Le notebook démontre les conclusions ; le tableau de bord permet à la direction de **suivre les mêmes indicateurs chaque mois**, sans code, en filtrant par canal d'acquisition. Les chiffres sont identiques à ceux du notebook, car les deux reposent sur les mêmes vues SQL et la même segmentation.
+
+| Élément | Contenu |
+|---|---|
+| Fichier | [`powerbi/SBS_Bank.pbip`](powerbi) (format projet, versionné dans Git) |
+| Modèle | Schéma en étoile : 3 dimensions (Calendrier, Canal, Comptes) et 4 tables de faits |
+| Calculs | 30 mesures DAX (`CALCULATE`, `USERELATIONSHIP`, `REMOVEFILTERS`, variables) |
+| Pages | Vue d'ensemble, Acquisition et rétention, Qualité de service, Valeur et segments |
+| Interaction | Filtre par canal d'acquisition synchronisé sur les 4 pages |
+
+```mermaid
+flowchart LR
+    CAL[Calendrier] --> ACT[Activité mensuelle]
+    CAL --> OPS[Opérations]
+    CAL --> DEP[Dépenses carte]
+    CAN[Canal] --> CPT[Comptes]
+    CAN --> OPS
+    CAN --> DEP
+    CAN --> RET[Rétention cohortes]
+    CPT --> ACT
+```
+
+### Page 1 : Vue d'ensemble
+
+![Power BI : vue d'ensemble](reports/powerbi/01_vue_ensemble.png)
+
+**Question :** le portefeuille est-il en bonne santé ?
+
+- 1 881 comptes ouverts, 75 % actifs sur les 90 derniers jours et 1 377 comptes actifs en juin 2026.
+- 239 comptes n'ont jamais été alimentés : c'est le premier gisement de progrès.
+- Le pic d'ouvertures de septembre 2025 correspond à la campagne d'acquisition.
+- Les clients partenaires sont nettement moins actifs (56,5 % contre 77 à 78 %).
+
+### Page 2 : Acquisition et rétention
+
+![Power BI : acquisition et rétention](reports/powerbi/02_acquisition_retention.png)
+
+**Question :** quel canal amène des clients qui utilisent réellement leur compte, et combien de temps restent-ils actifs ?
+
+- 35,1 % des comptes partenaires sont alimentés sous 7 jours, contre 83,5 % en mobile et 82,4 % sur le web.
+- Le délai moyen avant le premier dépôt est de 11 jours pour les partenaires, contre moins de 3 jours ailleurs.
+- La matrice de cohortes montre une rétention de 75 % à 6 mois ; le filtre par canal permet de la comparer d'un canal à l'autre.
+
+### Page 3 : Qualité de service
+
+![Power BI : qualité de service](reports/powerbi/03_qualite_service.png)
+
+**Question :** où les clients rencontrent-ils des échecs, et pourquoi ?
+
+- Les paiements carte refusés pour solde insuffisant sont de loin la première cause d'échec (7 704 refus, 521 586 €).
+- Le taux de refus baisse de 22 % à environ 5,5 % à mesure que la base de clients mûrit.
+- Le contrôle de Luhn bloque 97,1 % des erreurs de numéro de carte avant toute requête en base.
+
+### Page 4 : Valeur et segments
+
+![Power BI : valeur et segments](reports/powerbi/04_valeur_segments.png)
+
+**Question :** où se concentrent les encours et les dépenses ?
+
+- L'alimentation est le premier poste de dépenses carte, devant les achats en ligne et les voyages.
+- Les épargnants peu actifs représentent 10,8 % des comptes segmentés mais 37,2 % des encours.
+- 340 024 € sont immobilisés sur des comptes dormants.
+
+Détails du modèle, des mesures et de la procédure d'ouverture : [docs/05_tableau_de_bord_power_bi.md](docs/05_tableau_de_bord_power_bi.md).
+
+## 12. Enseignements
 
 - **Le nombre d'ouvertures est un indicateur trompeur.** Il faut piloter l'acquisition sur l'activation : 13 % des comptes acquis n'ont jamais servi.
 - **Le problème d'activation est propre au canal partenaire**, pas au digital en général : mobile et web obtiennent des résultats équivalents.
@@ -242,7 +321,7 @@ Autres graphiques : [croissance mensuelle](reports/figures/02_croissance_mensuel
 - **Les irritants sont concentrés**, qu'il s'agisse des refus de paiement ou des encours à risque : des actions ciblées sur une minorité de clients traitent l'essentiel du problème.
 - **Un contrôle simple côté application a une vraie valeur** : l'algorithme de Luhn rejette la quasi-totalité des fautes de frappe avant de solliciter la base, avec un retour immédiat pour le client.
 
-## 12. Recommandations métier
+## 13. Recommandations métier
 
 | Priorité | Recommandation | Indicateur de suivi |
 |:---:|---|---|
@@ -255,27 +334,30 @@ Autres graphiques : [croissance mensuelle](reports/figures/02_croissance_mensuel
 
 Les listes d'actions sont prêtes à l'emploi : [clients proches de la dormance](reports/liste_prevention_dormance.csv) et [segmentation de chaque compte](reports/segmentation_rfm.csv).
 
-## 13. Limites
+## 14. Limites
 
 - **Données simulées** : les tendances reflètent les hypothèses de la simulation. La démarche, les définitions et les requêtes sont en revanche directement transposables à des données réelles.
 - **Pas de données financières d'acquisition ni de revenus** : la rentabilité par canal ne peut pas être calculée.
 - **Choix métier à valider** : le seuil de dormance (90 jours) et les règles de segmentation devraient être arbitrés avec les équipes concernées.
 - **Cohortes** : le mois d'ouverture est incomplet, ce qui explique une rétention M0 inférieure à M1.
+- **Power BI lit un export figé** (fichiers CSV au 30 juin 2026) et non la base en direct.
 
-## 14. Pistes d'amélioration
+## 15. Pistes d'amélioration
 
-- Tableau de bord interactif (Power BI, Metabase) branché sur les vues SQL.
+- Connexion directe de Power BI à MySQL via une passerelle, publication sur le service Power BI et actualisation planifiée.
+- Sécurité au niveau des lignes (RLS) si le rapport est partagé avec des équipes aux périmètres différents.
 - Modèle prédictif de dormance (régression logistique) à partir des variables d'activité.
 - Test A/B des relances d'activation sur le canal partenaire.
 - Orchestration planifiée du pipeline et historisation mensuelle des indicateurs.
 - Intégration continue (GitHub Actions) avec un service MySQL pour exécuter les tests à chaque push.
 - Ajout du coût d'acquisition par canal pour mesurer la rentabilité.
 
-## 15. Structure du dépôt
+## 16. Structure du dépôt
 
 ```text
 .
 ├── README.md
+├── LICENSE                       Licence MIT
 ├── requirements.txt              Dépendances Python
 ├── pyproject.toml                Package sbs_bank et configuration pytest
 ├── .env.example                  Modèle de configuration de la connexion MySQL
@@ -285,14 +367,16 @@ Les listes d'actions sont prêtes à l'emploi : [clients proches de la dormance]
 │   ├── 01_cadrage_metier.md      Problématique, questions, définitions des KPI
 │   ├── 02_dictionnaire_donnees.md Modèle et description des colonnes
 │   ├── 03_methodologie_et_choix.md Démarche, choix techniques, rôle de SQL et Python
-│   └── 04_environnement_pycharm_wampserver.md Installation pas à pas
+│   ├── 04_environnement_pycharm_wampserver.md Installation pas à pas
+│   └── 05_tableau_de_bord_power_bi.md Modèle, mesures DAX et pages du rapport
 ├── sql/
 │   ├── 00_create_database.sql    Création de la base
 │   ├── 01_schema.sql             Tables, contraintes, référentiels
 │   ├── 02_clean_customers.sql    Nettoyage et dédoublonnage de l'export CRM
 │   ├── 03_data_quality_checks.sql Contrôles qualité
 │   ├── 04_analytics_views.sql    Vues analytiques et définitions métier
-│   └── 05_business_analysis.sql  12 questions métier
+│   ├── 05_business_analysis.sql  12 questions métier
+│   └── 06_powerbi_export.sql     Tables de faits du modèle Power BI
 ├── src/sbs_bank/
 │   ├── luhn.py                   Génération et validation des numéros de carte
 │   ├── security.py               Hachage des codes PIN
@@ -301,19 +385,26 @@ Les listes d'actions sont prêtes à l'emploi : [clients proches de la dormance]
 │   ├── cli.py                    Interface en ligne de commande
 │   ├── simulation.py             Simulation de 18 mois d'activité
 │   ├── pipeline.py               Génération, chargement, contrôles
-│   ├── analysis.py               Outils du notebook (requêtes nommées, style)
-│   ├── config.py, db.py          Configuration et accès MySQL
+│   ├── analysis.py               Requêtes nommées, style des graphiques, segmentation RFM
+│   ├── powerbi.py                Export du modèle en étoile pour Power BI
+│   └── config.py, db.py          Configuration et accès MySQL
 ├── notebooks/
 │   └── analyse_activite_sbs_bank.ipynb Analyse commentée
+├── powerbi/
+│   ├── SBS_Bank.pbip             Projet Power BI à ouvrir dans Power BI Desktop
+│   ├── SBS_Bank.SemanticModel/   Modèle sémantique (tables, relations, mesures DAX en TMDL)
+│   ├── SBS_Bank.Report/          Rapport (pages et visuels en PBIR)
+│   └── data/                     Tables de faits et dimensions exportées
 ├── reports/
 │   ├── data_quality_report.md    Rapport qualité généré
-│   ├── figures/                  Graphiques
+│   ├── figures/                  Graphiques du notebook
+│   ├── powerbi/                  Captures du tableau de bord
 │   ├── liste_prevention_dormance.csv
 │   └── segmentation_rfm.csv
 └── tests/                        Tests unitaires et d'intégration
 ```
 
-## 16. Installation et exécution
+## 17. Installation et exécution
 
 Prérequis : Python 3.11 ou plus récent, MySQL 8.0 ou plus récent (WampServer démarré). Guide détaillé pour PyCharm et WampServer : [docs/04_environnement_pycharm_wampserver.md](docs/04_environnement_pycharm_wampserver.md).
 
@@ -327,7 +418,7 @@ python -m pip install -e .
 copy .env.example .env
 ```
 
-Construire la base et les données (environ 1 à 2 minutes) :
+Construire la base, les données et l'export Power BI (environ 2 minutes) :
 
 ```bash
 python -m sbs_bank.pipeline all
@@ -351,7 +442,9 @@ Réexécuter l'analyse :
 jupyter nbconvert --to notebook --execute --inplace notebooks/analyse_activite_sbs_bank.ipynb
 ```
 
-## 17. Compétences démontrées
+Ouvrir le tableau de bord : lancer `powerbi/SBS_Bank.pbip` dans Power BI Desktop, puis cliquer sur **Actualiser** (le cache de données n'est pas versionné).
+
+## 18. Compétences démontrées
 
 | Compétence Data Analyst | Mise en œuvre dans le projet |
 |---|---|
@@ -363,9 +456,39 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/analyse_activite_s
 | Statistiques | Test du khi-deux, V de Cramér, analyse de distribution et de concentration |
 | Segmentation client | Scoring RFM enrichi du solde, profils de segments |
 | Visualisation | Graphiques choisis selon le message, lisibles et accessibles |
+| Business Intelligence | Modèle en étoile, Power Query, mesures DAX, rapport Power BI de pilotage versionné au format PBIP |
 | Esprit critique | Détection et correction d'une incohérence en confrontant les chiffres à leurs définitions |
 | Restitution | Interprétations, recommandations priorisées avec indicateurs de suivi, listes d'actions |
 | Bonnes pratiques | Tests automatisés, reproductibilité, secrets hors du code, Git avec commits thématiques |
 
+## Licence
+
+Ce projet est distribué sous licence MIT : voir le fichier [LICENSE](LICENSE).
+
+```
+MIT License
+
+Copyright (c) 2026 Dibie Elisee Jules Cedric KOUADIO
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
 ## Auteur
+
 Dibie Elisee Jules Cedric KOUADIO ([@GomuGomuNo01](https://github.com/GomuGomuNo01))

@@ -87,7 +87,17 @@ Ouvrir `notebooks/analyse_activite_sbs_bank.ipynb`, sélectionner l'interpréteu
 jupyter nbconvert --to notebook --execute --inplace notebooks/analyse_activite_sbs_bank.ipynb
 ```
 
-## 9. Git dans PyCharm
+## 9. Ouvrir le tableau de bord Power BI
+
+Power BI Desktop est le seul outil utilisé hors de PyCharm : aucun IDE JetBrains ne sait éditer un rapport Power BI.
+
+1. Ouvrir `powerbi/SBS_Bank.pbip` dans Power BI Desktop.
+2. Cliquer sur **Actualiser** dans l'onglet Accueil.
+3. Enregistrer avec **Fichier, Enregistrer** : les fichiers texte du projet sont mis à jour et les changements apparaissent dans l'onglet Git de PyCharm.
+
+Détails : [05_tableau_de_bord_power_bi.md](05_tableau_de_bord_power_bi.md).
+
+## 10. Git dans PyCharm
 
 - Vérifier la branche active en bas à droite de la fenêtre : elle doit être `dev`.
 - **Commit** (Ctrl+K) : relire la liste des fichiers cochés avant de valider. Ni `.venv/`, ni `.env`, ni `data/raw/` ne doivent apparaître (ils sont exclus par `.gitignore`).
