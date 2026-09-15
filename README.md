@@ -369,4 +369,4 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/analyse_activite_s
 
 ## Auteur
 
-**GomuGomuNo01** : projet personnel réalisé dans le cadre de ma formation Data Analyst (Databases with SQL and Python).
+**Auteur** : Dibie Elisee Jules Cedric KOUADIO ([@GomuGomuNo01](https://github.com/GomuGomuNo01))
