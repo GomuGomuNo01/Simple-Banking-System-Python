@@ -9,6 +9,10 @@
 
 Projet de Data Analyst mené de bout en bout : d'une application bancaire qui produit les données jusqu'au tableau de bord et aux recommandations présentés à la direction.
 
+[![Télécharger le rapport | .pbix avec données](https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20le%20rapport%20%7C%20.pbix%20avec%20donn%C3%A9es-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://github.com/GomuGomuNo01/Simple-Banking-System-Python/releases/latest/download/SBS_Bank.pbix)
+
+*Fichier unique, données incluses, ouverture directe dans Power BI Desktop sans configuration. Toutes les versions sont disponibles sur la [page des releases](https://github.com/GomuGomuNo01/Simple-Banking-System-Python/releases).*
+
 ## En bref
 
 | | |
@@ -314,9 +318,12 @@ Autres graphiques : [croissance mensuelle](reports/figures/02_croissance_mensuel
 
 Le notebook démontre les conclusions ; le tableau de bord permet à la direction de **suivre les mêmes indicateurs chaque mois**, sans code, en filtrant par canal d'acquisition. Les chiffres sont identiques à ceux du notebook, car les deux reposent sur les mêmes vues SQL et la même segmentation.
 
+**Télécharger le rapport :** [SBS_Bank.pbix](https://github.com/GomuGomuNo01/Simple-Banking-System-Python/releases/latest/download/SBS_Bank.pbix) (rapport et données dans un seul fichier, à ouvrir directement dans Power BI Desktop 2.157 ou plus récent).
+
 | Élément | Contenu |
 |---|---|
-| Fichier | [`powerbi/SBS_Bank.pbip`](powerbi) (format projet, versionné dans Git) |
+| Fichier prêt à l'emploi | [`SBS_Bank.pbix`](https://github.com/GomuGomuNo01/Simple-Banking-System-Python/releases/latest/download/SBS_Bank.pbix), publié dans les [releases](https://github.com/GomuGomuNo01/Simple-Banking-System-Python/releases) |
+| Projet source | [`powerbi/SBS_Bank.pbip`](powerbi) (format projet, versionné dans Git) |
 | Modèle | Schéma en étoile : 3 dimensions (Calendrier, Canal, Comptes) et 4 tables de faits |
 | Calculs | 30 mesures DAX (`CALCULATE`, `USERELATIONSHIP`, `REMOVEFILTERS`, variables) |
 | Pages | Vue d'ensemble, Acquisition et rétention, Qualité de service, Valeur et segments |
@@ -479,6 +486,16 @@ Les indicateurs de suivi sont disponibles dans le tableau de bord Power BI. Les 
 
 ## 20. Installation et exécution
 
+### Consulter uniquement le tableau de bord
+
+Aucune installation technique n'est nécessaire :
+
+1. Télécharger [SBS_Bank.pbix](https://github.com/GomuGomuNo01/Simple-Banking-System-Python/releases/latest/download/SBS_Bank.pbix).
+2. L'ouvrir dans Power BI Desktop (version 2.157 ou plus récente). Les données sont incluses : aucune actualisation n'est requise.
+3. Changer de page avec les onglets en bas de la fenêtre. Dans Power BI Desktop, les boutons et les liens s'activent avec **Ctrl + clic**.
+
+### Reproduire l'ensemble du projet
+
 Prérequis : Python 3.11 ou plus récent, MySQL 8.0 ou plus récent (WampServer démarré), Power BI Desktop pour le tableau de bord. Guide détaillé pour PyCharm et WampServer : [docs/04_environnement_pycharm_wampserver.md](docs/04_environnement_pycharm_wampserver.md).
 
 ```bash
@@ -515,7 +532,7 @@ Réexécuter l'analyse :
 jupyter nbconvert --to notebook --execute --inplace notebooks/analyse_activite_sbs_bank.ipynb
 ```
 
-Ouvrir le tableau de bord : lancer `powerbi/SBS_Bank.pbip` dans Power BI Desktop, puis cliquer sur **Actualiser** (le cache de données n'est pas versionné).
+Ouvrir le tableau de bord depuis les sources : lancer `powerbi/SBS_Bank.pbip` dans Power BI Desktop, puis cliquer sur **Actualiser** (le cache de données n'est pas versionné dans Git ; la version avec données incluses est le fichier `.pbix` des releases).
 
 ## 21. Documentation
 
@@ -539,6 +556,7 @@ Ouvrir le tableau de bord : lancer `powerbi/SBS_Bank.pbip` dans Power BI Desktop
 | Commits | Un commit par étape logique, avec un message explicite |
 | Fichiers exclus | Secrets (`.env`), environnement virtuel, données brutes régénérables, cache Power BI |
 | Formats versionnables | Requêtes en `.sql`, rapport Power BI au format texte PBIP, fins de ligne normalisées (`.gitattributes`) |
+| Publication | Le fichier `.pbix` avec données est publié dans les releases GitHub, versionnées par tag (`v1.0`), et non dans l'historique Git |
 | Reproductibilité | Graine aléatoire fixe, pipeline complet en une commande, dépendances figées dans `requirements.txt` |
 
 Ce dépôt est un projet personnel de portfolio. Les suggestions sont les bienvenues via les issues ; toute modification passe par une pull request validée par l'auteur.

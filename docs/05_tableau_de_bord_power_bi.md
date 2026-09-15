@@ -78,6 +78,10 @@ Chaque page porte un filtre **Canal d'acquisition**, synchronisé entre les page
 
 ## Ouvrir et actualiser le rapport
 
+**Option rapide, sans installation technique :** télécharger [SBS_Bank.pbix](https://github.com/GomuGomuNo01/Simple-Banking-System-Python/releases/latest/download/SBS_Bank.pbix) depuis les [releases](https://github.com/GomuGomuNo01/Simple-Banking-System-Python/releases) et l'ouvrir dans Power BI Desktop 2.157 ou plus récent. Le rapport et les données sont réunis dans ce fichier : aucune actualisation n'est nécessaire. Dans Power BI Desktop, les boutons et les liens s'activent avec **Ctrl + clic**.
+
+**Depuis les sources du dépôt :**
+
 1. Générer les données si ce n'est pas déjà fait : `python -m sbs_bank.pipeline all` (ou `python -m sbs_bank.pipeline powerbi` si la base existe déjà).
 2. Ouvrir `powerbi/SBS_Bank.pbip` dans Power BI Desktop.
 3. Cliquer sur **Actualiser** (onglet Accueil). Le cache de données n'est pas versionné, les visuels restent vides jusqu'à cette première actualisation.
