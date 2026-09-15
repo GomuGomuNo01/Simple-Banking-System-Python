@@ -6,6 +6,7 @@ Run: python -m sbs_bank.cli
 from __future__ import annotations
 
 import getpass
+import sys
 from decimal import Decimal, InvalidOperation
 
 from . import db
@@ -24,6 +25,12 @@ ACCOUNT_MENU = """
 5. Clôturer le compte
 6. Se déconnecter
 0. Quitter"""
+
+
+def read_pin(prompt: str) -> str:
+    """Hidden input in a real terminal; plain input otherwise (PyCharm run console, piped input),
+    where getpass would block on Windows."""
+    return getpass.getpass(prompt) if sys.stdin.isatty() else input(prompt)
 
 
 def read_amount(prompt: str) -> Decimal | None:
@@ -84,7 +91,7 @@ def main() -> None:
                 print(f"\nVotre compte a été créé.\nNuméro de carte : {card_number}\nCode PIN : {pin}")
             elif choice == "2":
                 card_number = input("Numéro de carte : ").strip()
-                pin = getpass.getpass("Code PIN : ").strip()
+                pin = read_pin("Code PIN : ").strip()
                 try:
                     session = bank.login(card_number, pin)
                 except OperationError as error:
