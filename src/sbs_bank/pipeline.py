@@ -1,10 +1,11 @@
-"""Data pipeline: generate -> load -> clean -> check -> analytics views.
+"""Data pipeline: generate -> load -> clean -> check -> analytics views -> Power BI export.
 
 Usage
     python -m sbs_bank.pipeline all        full rebuild (about 2 minutes)
     python -m sbs_bank.pipeline generate   CSV files only
     python -m sbs_bank.pipeline load       database rebuild from existing CSV files
     python -m sbs_bank.pipeline quality    data quality report only
+    python -m sbs_bank.pipeline powerbi    Power BI star schema export only
 
 Why Python for this step? Reading files, converting empty strings to NULL
 and loading in batches is file handling and orchestration, which Python does
@@ -157,7 +158,7 @@ def quality_report(config: DbConfig) -> bool:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="SBS Bank data pipeline")
-    parser.add_argument("step", choices=["all", "generate", "load", "quality"])
+    parser.add_argument("step", choices=["all", "generate", "load", "quality", "powerbi"])
     parser.add_argument("--customers", type=int, default=1800)
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()
@@ -171,6 +172,12 @@ def main() -> None:
     if args.step in ("all", "load", "quality"):
         if not quality_report(config):
             raise SystemExit("Data quality checks failed: analysis results would not be reliable.")
+    if args.step in ("all", "powerbi"):
+        from . import powerbi  # imported here: only this step needs pandas and the analysis helpers
+
+        log("Exporting the Power BI star schema")
+        for name, count in powerbi.export().items():
+            log(f"  powerbi/data/{name}.csv: {count:,} rows")
     log(f"Done in {time.perf_counter() - started:.0f} s")
 
 

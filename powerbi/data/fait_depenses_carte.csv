@@ -1,0 +1,478 @@
+Mois,Code canal,Catégorie,Type de dépense,Paiements,Montant
+2025-01-01,MOBILE,Alimentation,Essentielle,27,1146.23
+2025-01-01,WEB,Alimentation,Essentielle,12,517.59
+2025-01-01,PARTNER,Alimentation,Essentielle,1,10.1
+2025-02-01,PARTNER,Alimentation,Essentielle,12,452.55
+2025-02-01,MOBILE,Alimentation,Essentielle,119,4890.82
+2025-02-01,WEB,Alimentation,Essentielle,49,2242.26
+2025-03-01,MOBILE,Alimentation,Essentielle,208,8287.72
+2025-03-01,PARTNER,Alimentation,Essentielle,17,570.31
+2025-03-01,WEB,Alimentation,Essentielle,76,2705.68
+2025-04-01,MOBILE,Alimentation,Essentielle,323,14184.74
+2025-04-01,WEB,Alimentation,Essentielle,130,5986.07
+2025-04-01,PARTNER,Alimentation,Essentielle,39,1984.85
+2025-05-01,MOBILE,Alimentation,Essentielle,422,18668.6
+2025-05-01,WEB,Alimentation,Essentielle,156,6729.15
+2025-05-01,PARTNER,Alimentation,Essentielle,52,3065.01
+2025-06-01,WEB,Alimentation,Essentielle,223,10641.67
+2025-06-01,PARTNER,Alimentation,Essentielle,57,2373.14
+2025-06-01,MOBILE,Alimentation,Essentielle,539,23402.2
+2025-07-01,WEB,Alimentation,Essentielle,311,13622.66
+2025-07-01,MOBILE,Alimentation,Essentielle,639,28464.32
+2025-07-01,PARTNER,Alimentation,Essentielle,78,3237.68
+2025-08-01,MOBILE,Alimentation,Essentielle,751,34279.64
+2025-08-01,PARTNER,Alimentation,Essentielle,75,2915.79
+2025-08-01,WEB,Alimentation,Essentielle,341,15808.9
+2025-09-01,MOBILE,Alimentation,Essentielle,871,39070.36
+2025-09-01,WEB,Alimentation,Essentielle,482,20666.91
+2025-09-01,PARTNER,Alimentation,Essentielle,86,4185.89
+2025-10-01,WEB,Alimentation,Essentielle,567,25545.5
+2025-10-01,MOBILE,Alimentation,Essentielle,1135,52193.59
+2025-10-01,PARTNER,Alimentation,Essentielle,114,5081.68
+2025-11-01,WEB,Alimentation,Essentielle,697,32149.59
+2025-11-01,MOBILE,Alimentation,Essentielle,1402,62002.99
+2025-11-01,PARTNER,Alimentation,Essentielle,145,6607.74
+2025-12-01,MOBILE,Alimentation,Essentielle,1564,69186.13
+2025-12-01,WEB,Alimentation,Essentielle,807,35497.34
+2025-12-01,PARTNER,Alimentation,Essentielle,191,8319.74
+2026-01-01,MOBILE,Alimentation,Essentielle,1323,58769.37
+2026-01-01,WEB,Alimentation,Essentielle,772,34592.35
+2026-01-01,PARTNER,Alimentation,Essentielle,143,5584.03
+2026-02-01,WEB,Alimentation,Essentielle,782,36625.76
+2026-02-01,MOBILE,Alimentation,Essentielle,1433,66135.34
+2026-02-01,PARTNER,Alimentation,Essentielle,188,8688.62
+2026-03-01,MOBILE,Alimentation,Essentielle,1797,79621.23
+2026-03-01,WEB,Alimentation,Essentielle,957,43258.72
+2026-03-01,PARTNER,Alimentation,Essentielle,240,11040.96
+2026-04-01,MOBILE,Alimentation,Essentielle,1875,85348.22
+2026-04-01,WEB,Alimentation,Essentielle,1033,47513.13
+2026-04-01,PARTNER,Alimentation,Essentielle,205,9129.35
+2026-05-01,WEB,Alimentation,Essentielle,1059,46414.58
+2026-05-01,MOBILE,Alimentation,Essentielle,1990,91180.24
+2026-05-01,PARTNER,Alimentation,Essentielle,244,11593.26
+2026-06-01,MOBILE,Alimentation,Essentielle,2341,103006.97
+2026-06-01,PARTNER,Alimentation,Essentielle,242,10061.54
+2026-06-01,WEB,Alimentation,Essentielle,1286,57889.65
+2025-01-01,MOBILE,Santé,Essentielle,9,239.4
+2025-01-01,WEB,Santé,Essentielle,2,59.91
+2025-02-01,MOBILE,Santé,Essentielle,9,227.31
+2025-02-01,WEB,Santé,Essentielle,11,332.51
+2025-02-01,PARTNER,Santé,Essentielle,1,12.54
+2025-03-01,MOBILE,Santé,Essentielle,40,1078.69
+2025-03-01,PARTNER,Santé,Essentielle,3,99.87
+2025-03-01,WEB,Santé,Essentielle,14,321.78
+2025-04-01,MOBILE,Santé,Essentielle,68,2262.41
+2025-04-01,WEB,Santé,Essentielle,26,574.98
+2025-04-01,PARTNER,Santé,Essentielle,6,170.25
+2025-05-01,WEB,Santé,Essentielle,23,654.41
+2025-05-01,PARTNER,Santé,Essentielle,9,283.79
+2025-05-01,MOBILE,Santé,Essentielle,67,2020.7
+2025-06-01,MOBILE,Santé,Essentielle,89,2423.24
+2025-06-01,WEB,Santé,Essentielle,43,1167.81
+2025-06-01,PARTNER,Santé,Essentielle,13,282.13
+2025-07-01,MOBILE,Santé,Essentielle,100,2857.37
+2025-07-01,WEB,Santé,Essentielle,55,1883.65
+2025-07-01,PARTNER,Santé,Essentielle,7,247.76
+2025-08-01,WEB,Santé,Essentielle,47,1384.02
+2025-08-01,MOBILE,Santé,Essentielle,107,3056.27
+2025-08-01,PARTNER,Santé,Essentielle,15,329.18
+2025-09-01,MOBILE,Santé,Essentielle,138,4049.4
+2025-09-01,WEB,Santé,Essentielle,74,2349.79
+2025-09-01,PARTNER,Santé,Essentielle,19,581.93
+2025-10-01,WEB,Santé,Essentielle,110,3116.65
+2025-10-01,MOBILE,Santé,Essentielle,190,5386.87
+2025-10-01,PARTNER,Santé,Essentielle,26,806.6
+2025-11-01,MOBILE,Santé,Essentielle,247,7827.27
+2025-11-01,WEB,Santé,Essentielle,140,3951.69
+2025-11-01,PARTNER,Santé,Essentielle,27,680.03
+2025-12-01,MOBILE,Santé,Essentielle,270,7610.13
+2025-12-01,WEB,Santé,Essentielle,127,3830.54
+2025-12-01,PARTNER,Santé,Essentielle,31,910.11
+2026-01-01,WEB,Santé,Essentielle,112,3239.26
+2026-01-01,MOBILE,Santé,Essentielle,223,6858.43
+2026-01-01,PARTNER,Santé,Essentielle,20,563.8
+2026-02-01,WEB,Santé,Essentielle,130,3727.79
+2026-02-01,MOBILE,Santé,Essentielle,233,6740.0
+2026-02-01,PARTNER,Santé,Essentielle,24,593.89
+2026-03-01,PARTNER,Santé,Essentielle,36,1277.98
+2026-03-01,WEB,Santé,Essentielle,175,4818.11
+2026-03-01,MOBILE,Santé,Essentielle,300,8945.56
+2026-04-01,MOBILE,Santé,Essentielle,316,9062.92
+2026-04-01,PARTNER,Santé,Essentielle,36,996.42
+2026-04-01,WEB,Santé,Essentielle,155,4500.66
+2026-05-01,WEB,Santé,Essentielle,196,5758.43
+2026-05-01,PARTNER,Santé,Essentielle,32,1085.81
+2026-05-01,MOBILE,Santé,Essentielle,306,9005.86
+2026-06-01,WEB,Santé,Essentielle,208,5959.87
+2026-06-01,MOBILE,Santé,Essentielle,405,11978.48
+2026-06-01,PARTNER,Santé,Essentielle,45,1377.26
+2025-01-01,MOBILE,Loisirs,Non essentielle,10,219.94
+2025-01-01,WEB,Loisirs,Non essentielle,2,48.24
+2025-02-01,MOBILE,Loisirs,Non essentielle,26,966.11
+2025-02-01,WEB,Loisirs,Non essentielle,13,467.05
+2025-02-01,PARTNER,Loisirs,Non essentielle,4,241.93
+2025-03-01,MOBILE,Loisirs,Non essentielle,62,1921.43
+2025-03-01,WEB,Loisirs,Non essentielle,31,970.04
+2025-03-01,PARTNER,Loisirs,Non essentielle,2,40.96
+2025-04-01,MOBILE,Loisirs,Non essentielle,97,3427.27
+2025-04-01,WEB,Loisirs,Non essentielle,38,1540.13
+2025-04-01,PARTNER,Loisirs,Non essentielle,5,226.37
+2025-05-01,MOBILE,Loisirs,Non essentielle,131,4230.99
+2025-05-01,WEB,Loisirs,Non essentielle,53,1654.46
+2025-05-01,PARTNER,Loisirs,Non essentielle,20,625.64
+2025-06-01,PARTNER,Loisirs,Non essentielle,18,667.37
+2025-06-01,MOBILE,Loisirs,Non essentielle,174,5971.58
+2025-06-01,WEB,Loisirs,Non essentielle,85,2793.4
+2025-07-01,MOBILE,Loisirs,Non essentielle,163,5510.71
+2025-07-01,WEB,Loisirs,Non essentielle,85,2635.88
+2025-07-01,PARTNER,Loisirs,Non essentielle,16,628.87
+2025-08-01,WEB,Loisirs,Non essentielle,118,3806.29
+2025-08-01,MOBILE,Loisirs,Non essentielle,211,7228.07
+2025-08-01,PARTNER,Loisirs,Non essentielle,24,817.27
+2025-09-01,MOBILE,Loisirs,Non essentielle,256,8821.77
+2025-09-01,WEB,Loisirs,Non essentielle,144,4878.22
+2025-09-01,PARTNER,Loisirs,Non essentielle,27,1046.93
+2025-10-01,MOBILE,Loisirs,Non essentielle,314,10564.96
+2025-10-01,WEB,Loisirs,Non essentielle,149,5080.86
+2025-10-01,PARTNER,Loisirs,Non essentielle,45,1619.93
+2025-11-01,MOBILE,Loisirs,Non essentielle,427,14659.07
+2025-11-01,WEB,Loisirs,Non essentielle,226,7634.97
+2025-11-01,PARTNER,Loisirs,Non essentielle,45,1719.77
+2025-12-01,MOBILE,Loisirs,Non essentielle,642,21655.91
+2025-12-01,PARTNER,Loisirs,Non essentielle,62,2113.29
+2025-12-01,WEB,Loisirs,Non essentielle,328,11904.98
+2026-01-01,MOBILE,Loisirs,Non essentielle,439,15366.61
+2026-01-01,WEB,Loisirs,Non essentielle,243,8147.81
+2026-01-01,PARTNER,Loisirs,Non essentielle,35,1226.44
+2026-02-01,MOBILE,Loisirs,Non essentielle,436,15237.18
+2026-02-01,PARTNER,Loisirs,Non essentielle,59,1868.01
+2026-02-01,WEB,Loisirs,Non essentielle,258,9051.67
+2026-03-01,WEB,Loisirs,Non essentielle,312,10237.56
+2026-03-01,MOBILE,Loisirs,Non essentielle,514,17986.84
+2026-03-01,PARTNER,Loisirs,Non essentielle,77,2563.97
+2026-04-01,WEB,Loisirs,Non essentielle,306,10489.8
+2026-04-01,MOBILE,Loisirs,Non essentielle,539,18951.77
+2026-04-01,PARTNER,Loisirs,Non essentielle,81,2732.1
+2026-05-01,MOBILE,Loisirs,Non essentielle,609,21442.81
+2026-05-01,WEB,Loisirs,Non essentielle,354,12074.62
+2026-05-01,PARTNER,Loisirs,Non essentielle,80,2624.43
+2026-06-01,MOBILE,Loisirs,Non essentielle,679,24054.03
+2026-06-01,PARTNER,Loisirs,Non essentielle,73,2669.72
+2026-06-01,WEB,Loisirs,Non essentielle,372,13239.03
+2025-01-01,MOBILE,Achats en ligne,Non essentielle,12,752.58
+2025-01-01,WEB,Achats en ligne,Non essentielle,2,89.03
+2025-01-01,PARTNER,Achats en ligne,Non essentielle,2,123.7
+2025-02-01,MOBILE,Achats en ligne,Non essentielle,50,2698.91
+2025-02-01,WEB,Achats en ligne,Non essentielle,16,835.55
+2025-02-01,PARTNER,Achats en ligne,Non essentielle,2,40.19
+2025-03-01,MOBILE,Achats en ligne,Non essentielle,94,4948.16
+2025-03-01,WEB,Achats en ligne,Non essentielle,29,1594.68
+2025-03-01,PARTNER,Achats en ligne,Non essentielle,6,361.97
+2025-04-01,MOBILE,Achats en ligne,Non essentielle,151,8288.52
+2025-04-01,WEB,Achats en ligne,Non essentielle,54,3165.24
+2025-04-01,PARTNER,Achats en ligne,Non essentielle,8,259.2
+2025-05-01,MOBILE,Achats en ligne,Non essentielle,145,8550.57
+2025-05-01,WEB,Achats en ligne,Non essentielle,86,5060.38
+2025-05-01,PARTNER,Achats en ligne,Non essentielle,14,523.57
+2025-06-01,MOBILE,Achats en ligne,Non essentielle,237,12871.74
+2025-06-01,WEB,Achats en ligne,Non essentielle,97,5316.71
+2025-06-01,PARTNER,Achats en ligne,Non essentielle,18,881.48
+2025-07-01,MOBILE,Achats en ligne,Non essentielle,245,13698.53
+2025-07-01,WEB,Achats en ligne,Non essentielle,148,8100.77
+2025-07-01,PARTNER,Achats en ligne,Non essentielle,29,1843.32
+2025-08-01,MOBILE,Achats en ligne,Non essentielle,290,17804.14
+2025-08-01,PARTNER,Achats en ligne,Non essentielle,36,2163.12
+2025-08-01,WEB,Achats en ligne,Non essentielle,152,8219.72
+2025-09-01,WEB,Achats en ligne,Non essentielle,211,12100.14
+2025-09-01,MOBILE,Achats en ligne,Non essentielle,392,23450.81
+2025-09-01,PARTNER,Achats en ligne,Non essentielle,38,2317.58
+2025-10-01,WEB,Achats en ligne,Non essentielle,237,13388.6
+2025-10-01,PARTNER,Achats en ligne,Non essentielle,54,3336.11
+2025-10-01,MOBILE,Achats en ligne,Non essentielle,459,27912.54
+2025-11-01,WEB,Achats en ligne,Non essentielle,287,17652.32
+2025-11-01,MOBILE,Achats en ligne,Non essentielle,598,36513.19
+2025-11-01,PARTNER,Achats en ligne,Non essentielle,60,3166.61
+2025-12-01,MOBILE,Achats en ligne,Non essentielle,1099,65913.22
+2025-12-01,WEB,Achats en ligne,Non essentielle,581,33837.0
+2025-12-01,PARTNER,Achats en ligne,Non essentielle,120,7120.8
+2026-01-01,MOBILE,Achats en ligne,Non essentielle,613,36200.09
+2026-01-01,WEB,Achats en ligne,Non essentielle,313,18994.12
+2026-01-01,PARTNER,Achats en ligne,Non essentielle,63,2963.12
+2026-02-01,WEB,Achats en ligne,Non essentielle,346,19536.45
+2026-02-01,MOBILE,Achats en ligne,Non essentielle,616,37414.81
+2026-02-01,PARTNER,Achats en ligne,Non essentielle,82,5347.78
+2026-03-01,WEB,Achats en ligne,Non essentielle,399,23847.42
+2026-03-01,MOBILE,Achats en ligne,Non essentielle,781,44781.19
+2026-03-01,PARTNER,Achats en ligne,Non essentielle,99,5937.33
+2026-04-01,WEB,Achats en ligne,Non essentielle,428,27195.81
+2026-04-01,MOBILE,Achats en ligne,Non essentielle,803,49195.89
+2026-04-01,PARTNER,Achats en ligne,Non essentielle,104,5682.57
+2026-05-01,MOBILE,Achats en ligne,Non essentielle,893,51271.41
+2026-05-01,WEB,Achats en ligne,Non essentielle,455,28345.44
+2026-05-01,PARTNER,Achats en ligne,Non essentielle,91,5611.49
+2026-06-01,WEB,Achats en ligne,Non essentielle,546,34837.13
+2026-06-01,MOBILE,Achats en ligne,Non essentielle,937,54431.45
+2026-06-01,PARTNER,Achats en ligne,Non essentielle,118,6132.4
+2025-01-01,MOBILE,Autres,Non essentielle,3,36.79
+2025-01-01,WEB,Autres,Non essentielle,1,8.3
+2025-02-01,MOBILE,Autres,Non essentielle,11,301.02
+2025-02-01,PARTNER,Autres,Non essentielle,1,25.14
+2025-03-01,WEB,Autres,Non essentielle,12,177.27
+2025-03-01,MOBILE,Autres,Non essentielle,23,530.39
+2025-03-01,PARTNER,Autres,Non essentielle,1,9.34
+2025-04-01,MOBILE,Autres,Non essentielle,32,784.65
+2025-04-01,WEB,Autres,Non essentielle,8,261.23
+2025-04-01,PARTNER,Autres,Non essentielle,2,28.08
+2025-05-01,MOBILE,Autres,Non essentielle,44,913.86
+2025-05-01,WEB,Autres,Non essentielle,22,551.12
+2025-05-01,PARTNER,Autres,Non essentielle,6,98.29
+2025-06-01,MOBILE,Autres,Non essentielle,62,1791.16
+2025-06-01,WEB,Autres,Non essentielle,23,567.98
+2025-06-01,PARTNER,Autres,Non essentielle,9,209.83
+2025-07-01,PARTNER,Autres,Non essentielle,7,113.0
+2025-07-01,WEB,Autres,Non essentielle,26,577.44
+2025-07-01,MOBILE,Autres,Non essentielle,70,2138.55
+2025-08-01,MOBILE,Autres,Non essentielle,74,2136.47
+2025-08-01,PARTNER,Autres,Non essentielle,9,209.36
+2025-08-01,WEB,Autres,Non essentielle,39,1200.87
+2025-09-01,WEB,Autres,Non essentielle,41,1332.76
+2025-09-01,MOBILE,Autres,Non essentielle,91,2144.42
+2025-09-01,PARTNER,Autres,Non essentielle,8,165.02
+2025-10-01,MOBILE,Autres,Non essentielle,116,3487.13
+2025-10-01,WEB,Autres,Non essentielle,75,2483.37
+2025-10-01,PARTNER,Autres,Non essentielle,11,483.89
+2025-11-01,MOBILE,Autres,Non essentielle,135,4056.58
+2025-11-01,WEB,Autres,Non essentielle,84,2133.49
+2025-11-01,PARTNER,Autres,Non essentielle,15,308.46
+2025-12-01,MOBILE,Autres,Non essentielle,172,5151.87
+2025-12-01,WEB,Autres,Non essentielle,92,2169.86
+2025-12-01,PARTNER,Autres,Non essentielle,18,454.6
+2026-01-01,MOBILE,Autres,Non essentielle,136,3878.57
+2026-01-01,PARTNER,Autres,Non essentielle,19,470.48
+2026-01-01,WEB,Autres,Non essentielle,78,2337.22
+2026-02-01,MOBILE,Autres,Non essentielle,153,4287.19
+2026-02-01,WEB,Autres,Non essentielle,78,1814.87
+2026-02-01,PARTNER,Autres,Non essentielle,20,523.3
+2026-03-01,MOBILE,Autres,Non essentielle,157,3741.73
+2026-03-01,WEB,Autres,Non essentielle,98,2416.22
+2026-03-01,PARTNER,Autres,Non essentielle,25,825.09
+2026-04-01,PARTNER,Autres,Non essentielle,30,825.84
+2026-04-01,MOBILE,Autres,Non essentielle,203,5129.7
+2026-04-01,WEB,Autres,Non essentielle,92,2551.93
+2026-05-01,WEB,Autres,Non essentielle,150,3851.79
+2026-05-01,MOBILE,Autres,Non essentielle,226,5786.63
+2026-05-01,PARTNER,Autres,Non essentielle,27,623.05
+2026-06-01,MOBILE,Autres,Non essentielle,217,5562.02
+2026-06-01,WEB,Autres,Non essentielle,136,3855.25
+2026-06-01,PARTNER,Autres,Non essentielle,19,467.84
+2025-01-01,MOBILE,Restaurants et cafés,Non essentielle,14,330.78
+2025-01-01,WEB,Restaurants et cafés,Non essentielle,11,188.75
+2025-02-01,MOBILE,Restaurants et cafés,Non essentielle,67,1512.66
+2025-02-01,WEB,Restaurants et cafés,Non essentielle,33,864.68
+2025-02-01,PARTNER,Restaurants et cafés,Non essentielle,4,71.36
+2025-03-01,WEB,Restaurants et cafés,Non essentielle,55,1214.69
+2025-03-01,MOBILE,Restaurants et cafés,Non essentielle,134,3078.75
+2025-03-01,PARTNER,Restaurants et cafés,Non essentielle,13,387.85
+2025-04-01,MOBILE,Restaurants et cafés,Non essentielle,203,5217.87
+2025-04-01,PARTNER,Restaurants et cafés,Non essentielle,19,440.69
+2025-04-01,WEB,Restaurants et cafés,Non essentielle,91,2449.59
+2025-05-01,MOBILE,Restaurants et cafés,Non essentielle,230,5601.52
+2025-05-01,WEB,Restaurants et cafés,Non essentielle,107,2568.47
+2025-05-01,PARTNER,Restaurants et cafés,Non essentielle,28,539.41
+2025-06-01,MOBILE,Restaurants et cafés,Non essentielle,324,8140.49
+2025-06-01,WEB,Restaurants et cafés,Non essentielle,171,4119.14
+2025-06-01,PARTNER,Restaurants et cafés,Non essentielle,34,844.84
+2025-07-01,WEB,Restaurants et cafés,Non essentielle,190,4681.47
+2025-07-01,MOBILE,Restaurants et cafés,Non essentielle,394,9661.9
+2025-07-01,PARTNER,Restaurants et cafés,Non essentielle,50,1155.34
+2025-08-01,MOBILE,Restaurants et cafés,Non essentielle,425,10293.03
+2025-08-01,WEB,Restaurants et cafés,Non essentielle,207,5170.77
+2025-08-01,PARTNER,Restaurants et cafés,Non essentielle,47,1107.12
+2025-09-01,MOBILE,Restaurants et cafés,Non essentielle,510,12849.59
+2025-09-01,WEB,Restaurants et cafés,Non essentielle,237,5589.47
+2025-09-01,PARTNER,Restaurants et cafés,Non essentielle,51,1315.73
+2025-10-01,MOBILE,Restaurants et cafés,Non essentielle,585,14586.63
+2025-10-01,WEB,Restaurants et cafés,Non essentielle,321,8014.19
+2025-10-01,PARTNER,Restaurants et cafés,Non essentielle,85,2101.66
+2025-11-01,WEB,Restaurants et cafés,Non essentielle,406,9702.46
+2025-11-01,MOBILE,Restaurants et cafés,Non essentielle,807,19189.49
+2025-11-01,PARTNER,Restaurants et cafés,Non essentielle,92,2065.48
+2025-12-01,WEB,Restaurants et cafés,Non essentielle,461,11717.46
+2025-12-01,MOBILE,Restaurants et cafés,Non essentielle,898,21782.48
+2025-12-01,PARTNER,Restaurants et cafés,Non essentielle,108,2741.59
+2026-01-01,MOBILE,Restaurants et cafés,Non essentielle,786,19797.75
+2026-01-01,WEB,Restaurants et cafés,Non essentielle,429,10674.2
+2026-01-01,PARTNER,Restaurants et cafés,Non essentielle,83,1961.45
+2026-02-01,MOBILE,Restaurants et cafés,Non essentielle,804,19818.68
+2026-02-01,WEB,Restaurants et cafés,Non essentielle,427,10743.01
+2026-02-01,PARTNER,Restaurants et cafés,Non essentielle,114,2736.34
+2026-03-01,MOBILE,Restaurants et cafés,Non essentielle,991,24453.84
+2026-03-01,PARTNER,Restaurants et cafés,Non essentielle,134,3105.19
+2026-03-01,WEB,Restaurants et cafés,Non essentielle,550,13623.93
+2026-04-01,MOBILE,Restaurants et cafés,Non essentielle,1095,27103.23
+2026-04-01,WEB,Restaurants et cafés,Non essentielle,569,13991.06
+2026-04-01,PARTNER,Restaurants et cafés,Non essentielle,123,2877.07
+2026-05-01,PARTNER,Restaurants et cafés,Non essentielle,124,2865.15
+2026-05-01,MOBILE,Restaurants et cafés,Non essentielle,1139,28111.27
+2026-05-01,WEB,Restaurants et cafés,Non essentielle,676,16626.1
+2026-06-01,WEB,Restaurants et cafés,Non essentielle,722,17655.08
+2026-06-01,MOBILE,Restaurants et cafés,Non essentielle,1310,32317.05
+2026-06-01,PARTNER,Restaurants et cafés,Non essentielle,155,3489.71
+2025-01-01,MOBILE,Transport,Essentielle,13,201.72
+2025-01-01,WEB,Transport,Essentielle,5,42.31
+2025-01-01,PARTNER,Transport,Essentielle,2,44.0
+2025-02-01,MOBILE,Transport,Essentielle,57,1004.37
+2025-02-01,WEB,Transport,Essentielle,27,474.85
+2025-02-01,PARTNER,Transport,Essentielle,4,52.78
+2025-03-01,MOBILE,Transport,Essentielle,105,1844.24
+2025-03-01,WEB,Transport,Essentielle,51,934.67
+2025-03-01,PARTNER,Transport,Essentielle,13,224.51
+2025-04-01,MOBILE,Transport,Essentielle,152,2458.83
+2025-04-01,WEB,Transport,Essentielle,81,1244.05
+2025-04-01,PARTNER,Transport,Essentielle,14,219.44
+2025-05-01,MOBILE,Transport,Essentielle,185,3240.63
+2025-05-01,WEB,Transport,Essentielle,70,1192.33
+2025-05-01,PARTNER,Transport,Essentielle,19,310.19
+2025-06-01,MOBILE,Transport,Essentielle,251,4452.46
+2025-06-01,WEB,Transport,Essentielle,112,2568.07
+2025-06-01,PARTNER,Transport,Essentielle,26,497.34
+2025-07-01,MOBILE,Transport,Essentielle,331,5842.68
+2025-07-01,WEB,Transport,Essentielle,137,2451.68
+2025-07-01,PARTNER,Transport,Essentielle,40,653.05
+2025-08-01,MOBILE,Transport,Essentielle,377,7036.59
+2025-08-01,WEB,Transport,Essentielle,156,2943.69
+2025-08-01,PARTNER,Transport,Essentielle,35,631.6
+2025-09-01,WEB,Transport,Essentielle,209,3696.0
+2025-09-01,MOBILE,Transport,Essentielle,428,8044.93
+2025-09-01,PARTNER,Transport,Essentielle,42,791.95
+2025-10-01,MOBILE,Transport,Essentielle,575,10735.04
+2025-10-01,WEB,Transport,Essentielle,245,4436.32
+2025-10-01,PARTNER,Transport,Essentielle,64,1136.07
+2025-11-01,WEB,Transport,Essentielle,335,6620.0
+2025-11-01,MOBILE,Transport,Essentielle,690,12650.98
+2025-11-01,PARTNER,Transport,Essentielle,63,1188.0
+2025-12-01,MOBILE,Transport,Essentielle,728,13773.27
+2025-12-01,WEB,Transport,Essentielle,403,7564.99
+2025-12-01,PARTNER,Transport,Essentielle,94,1820.68
+2026-01-01,PARTNER,Transport,Essentielle,68,1388.48
+2026-01-01,MOBILE,Transport,Essentielle,677,13213.25
+2026-01-01,WEB,Transport,Essentielle,379,7283.58
+2026-02-01,MOBILE,Transport,Essentielle,692,13076.95
+2026-02-01,WEB,Transport,Essentielle,382,6940.79
+2026-02-01,PARTNER,Transport,Essentielle,82,2199.89
+2026-03-01,MOBILE,Transport,Essentielle,765,14299.86
+2026-03-01,WEB,Transport,Essentielle,463,8351.0
+2026-03-01,PARTNER,Transport,Essentielle,86,1533.51
+2026-04-01,MOBILE,Transport,Essentielle,917,16115.56
+2026-04-01,WEB,Transport,Essentielle,498,9439.35
+2026-04-01,PARTNER,Transport,Essentielle,116,2225.17
+2026-05-01,MOBILE,Transport,Essentielle,973,17433.16
+2026-05-01,PARTNER,Transport,Essentielle,110,2130.58
+2026-05-01,WEB,Transport,Essentielle,525,9667.21
+2026-06-01,MOBILE,Transport,Essentielle,1080,19959.26
+2026-06-01,WEB,Transport,Essentielle,608,11364.43
+2026-06-01,PARTNER,Transport,Essentielle,122,2310.45
+2025-01-01,MOBILE,Voyages,Non essentielle,1,16.16
+2025-02-01,MOBILE,Voyages,Non essentielle,8,1496.21
+2025-02-01,WEB,Voyages,Non essentielle,5,1235.69
+2025-03-01,WEB,Voyages,Non essentielle,13,2570.95
+2025-03-01,MOBILE,Voyages,Non essentielle,24,4903.88
+2025-03-01,PARTNER,Voyages,Non essentielle,1,946.51
+2025-04-01,WEB,Voyages,Non essentielle,16,3179.69
+2025-04-01,MOBILE,Voyages,Non essentielle,21,4061.53
+2025-04-01,PARTNER,Voyages,Non essentielle,1,90.34
+2025-05-01,MOBILE,Voyages,Non essentielle,39,5069.5
+2025-05-01,WEB,Voyages,Non essentielle,21,5048.73
+2025-05-01,PARTNER,Voyages,Non essentielle,2,242.66
+2025-06-01,MOBILE,Voyages,Non essentielle,39,7307.74
+2025-06-01,WEB,Voyages,Non essentielle,22,4422.18
+2025-06-01,PARTNER,Voyages,Non essentielle,4,1481.4
+2025-07-01,MOBILE,Voyages,Non essentielle,173,35410.2
+2025-07-01,WEB,Voyages,Non essentielle,81,17704.42
+2025-07-01,PARTNER,Voyages,Non essentielle,16,4001.53
+2025-08-01,PARTNER,Voyages,Non essentielle,19,4317.48
+2025-08-01,WEB,Voyages,Non essentielle,94,18499.69
+2025-08-01,MOBILE,Voyages,Non essentielle,212,42112.2
+2025-09-01,WEB,Voyages,Non essentielle,43,8675.03
+2025-09-01,MOBILE,Voyages,Non essentielle,80,15679.15
+2025-09-01,PARTNER,Voyages,Non essentielle,6,1882.13
+2025-10-01,MOBILE,Voyages,Non essentielle,84,17427.27
+2025-10-01,WEB,Voyages,Non essentielle,47,9616.01
+2025-10-01,PARTNER,Voyages,Non essentielle,12,1977.41
+2025-11-01,MOBILE,Voyages,Non essentielle,124,28111.27
+2025-11-01,WEB,Voyages,Non essentielle,46,10054.64
+2025-11-01,PARTNER,Voyages,Non essentielle,18,3132.99
+2025-12-01,MOBILE,Voyages,Non essentielle,156,32655.0
+2025-12-01,WEB,Voyages,Non essentielle,74,15728.89
+2025-12-01,PARTNER,Voyages,Non essentielle,17,3619.58
+2026-01-01,MOBILE,Voyages,Non essentielle,128,28530.09
+2026-01-01,WEB,Voyages,Non essentielle,77,15187.1
+2026-01-01,PARTNER,Voyages,Non essentielle,7,1404.68
+2026-02-01,MOBILE,Voyages,Non essentielle,134,27763.26
+2026-02-01,WEB,Voyages,Non essentielle,81,17682.46
+2026-02-01,PARTNER,Voyages,Non essentielle,14,3464.99
+2026-03-01,WEB,Voyages,Non essentielle,80,15192.07
+2026-03-01,MOBILE,Voyages,Non essentielle,123,26900.25
+2026-03-01,PARTNER,Voyages,Non essentielle,20,3432.55
+2026-04-01,WEB,Voyages,Non essentielle,86,19115.04
+2026-04-01,MOBILE,Voyages,Non essentielle,168,33568.13
+2026-04-01,PARTNER,Voyages,Non essentielle,20,2907.33
+2026-05-01,MOBILE,Voyages,Non essentielle,176,39795.9
+2026-05-01,WEB,Voyages,Non essentielle,96,21313.9
+2026-05-01,PARTNER,Voyages,Non essentielle,29,5505.23
+2026-06-01,WEB,Voyages,Non essentielle,113,23181.35
+2026-06-01,MOBILE,Voyages,Non essentielle,215,43643.14
+2026-06-01,PARTNER,Voyages,Non essentielle,20,3429.95
+2025-01-01,MOBILE,Énergie et télécom,Essentielle,4,164.44
+2025-01-01,PARTNER,Énergie et télécom,Essentielle,2,78.78
+2025-01-01,WEB,Énergie et télécom,Essentielle,2,55.63
+2025-02-01,MOBILE,Énergie et télécom,Essentielle,30,1104.21
+2025-02-01,WEB,Énergie et télécom,Essentielle,8,249.57
+2025-03-01,MOBILE,Énergie et télécom,Essentielle,47,1799.66
+2025-03-01,WEB,Énergie et télécom,Essentielle,32,1101.55
+2025-03-01,PARTNER,Énergie et télécom,Essentielle,3,100.98
+2025-04-01,MOBILE,Énergie et télécom,Essentielle,63,2212.39
+2025-04-01,WEB,Énergie et télécom,Essentielle,23,846.67
+2025-04-01,PARTNER,Énergie et télécom,Essentielle,2,71.46
+2025-05-01,MOBILE,Énergie et télécom,Essentielle,81,3222.45
+2025-05-01,PARTNER,Énergie et télécom,Essentielle,10,336.19
+2025-05-01,WEB,Énergie et télécom,Essentielle,34,1272.86
+2025-06-01,WEB,Énergie et télécom,Essentielle,45,1688.89
+2025-06-01,MOBILE,Énergie et télécom,Essentielle,113,4102.66
+2025-06-01,PARTNER,Énergie et télécom,Essentielle,14,558.42
+2025-07-01,MOBILE,Énergie et télécom,Essentielle,138,5069.72
+2025-07-01,WEB,Énergie et télécom,Essentielle,56,2358.01
+2025-07-01,PARTNER,Énergie et télécom,Essentielle,13,532.59
+2025-08-01,WEB,Énergie et télécom,Essentielle,75,2825.7
+2025-08-01,MOBILE,Énergie et télécom,Essentielle,166,6297.87
+2025-08-01,PARTNER,Énergie et télécom,Essentielle,18,795.11
+2025-09-01,WEB,Énergie et télécom,Essentielle,81,3034.85
+2025-09-01,MOBILE,Énergie et télécom,Essentielle,170,6865.74
+2025-09-01,PARTNER,Énergie et télécom,Essentielle,18,688.94
+2025-10-01,MOBILE,Énergie et télécom,Essentielle,242,8844.23
+2025-10-01,WEB,Énergie et télécom,Essentielle,127,4916.07
+2025-10-01,PARTNER,Énergie et télécom,Essentielle,27,925.14
+2025-11-01,WEB,Énergie et télécom,Essentielle,149,5640.31
+2025-11-01,MOBILE,Énergie et télécom,Essentielle,255,9634.46
+2025-11-01,PARTNER,Énergie et télécom,Essentielle,22,786.66
+2025-12-01,MOBILE,Énergie et télécom,Essentielle,288,10469.1
+2025-12-01,WEB,Énergie et télécom,Essentielle,171,6157.23
+2025-12-01,PARTNER,Énergie et télécom,Essentielle,35,1213.83
+2026-01-01,MOBILE,Énergie et télécom,Essentielle,244,9549.79
+2026-01-01,PARTNER,Énergie et télécom,Essentielle,36,1282.19
+2026-01-01,WEB,Énergie et télécom,Essentielle,165,5878.06
+2026-02-01,MOBILE,Énergie et télécom,Essentielle,277,10115.06
+2026-02-01,WEB,Énergie et télécom,Essentielle,170,6315.53
+2026-02-01,PARTNER,Énergie et télécom,Essentielle,28,1099.94
+2026-03-01,MOBILE,Énergie et télécom,Essentielle,375,13885.91
+2026-03-01,WEB,Énergie et télécom,Essentielle,174,6504.9
+2026-03-01,PARTNER,Énergie et télécom,Essentielle,54,1917.51
+2026-04-01,MOBILE,Énergie et télécom,Essentielle,387,14340.38
+2026-04-01,WEB,Énergie et télécom,Essentielle,181,7125.86
+2026-04-01,PARTNER,Énergie et télécom,Essentielle,38,1408.8
+2026-05-01,WEB,Énergie et télécom,Essentielle,212,8207.91
+2026-05-01,MOBILE,Énergie et télécom,Essentielle,392,14493.49
+2026-05-01,PARTNER,Énergie et télécom,Essentielle,39,1252.59
+2026-06-01,MOBILE,Énergie et télécom,Essentielle,423,16074.15
+2026-06-01,WEB,Énergie et télécom,Essentielle,241,9042.4
+2026-06-01,PARTNER,Énergie et télécom,Essentielle,42,1471.85

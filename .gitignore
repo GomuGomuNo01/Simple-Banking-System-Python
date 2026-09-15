@@ -15,6 +15,10 @@ __pycache__/
 data/raw/*
 !data/raw/.gitkeep
 
+# Power BI project: per-user settings and local data cache (rebuilt on refresh)
+powerbi/**/.pbi/localSettings.json
+powerbi/**/.pbi/cache.abf
+
 # IDE (JetBrains)
 .idea/
 

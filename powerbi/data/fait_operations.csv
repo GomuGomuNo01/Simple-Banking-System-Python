@@ -1,0 +1,801 @@
+Mois,Code canal,Type opération,Résultat,Motif échec,Type et motif,Tentatives,Montant demandé
+2025-01-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,42,0.0
+2025-01-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,7,0.0
+2025-01-01,MOBILE,Connexion,Réussite,Aucun,Connexion,126,0.0
+2025-01-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,46,16646.94
+2025-01-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,62,0.0
+2025-01-01,PARTNER,Connexion,Réussite,Aucun,Connexion,10,0.0
+2025-01-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,5,0.0
+2025-01-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,93,3108.04
+2025-01-01,MOBILE,Retrait,Réussite,Aucun,Retrait,10,1267.0
+2025-01-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2025-01-01,MOBILE,Virement,Réussite,Aucun,Virement,15,1690.0
+2025-01-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,7,289.0
+2025-01-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,20,0.0
+2025-01-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,4,0.0
+2025-01-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,30,1772.08
+2025-01-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,3,314.0
+2025-01-01,WEB,Connexion,Réussite,Aucun,Connexion,40,0.0
+2025-01-01,WEB,Dépôt,Réussite,Aucun,Dépôt,17,3286.0
+2025-01-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,37,1009.76
+2025-01-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,15,0.0
+2025-01-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,7,256.58
+2025-01-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,5,0.0
+2025-01-01,WEB,Virement,Réussite,Aucun,Virement,6,221.0
+2025-01-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,2,20.0
+2025-01-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,9,516.29
+2025-01-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,1,0.0
+2025-01-01,PARTNER,Retrait,Réussite,Aucun,Retrait,1,19.0
+2025-01-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,1,0.0
+2025-01-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,3,142.0
+2025-01-01,PARTNER,Virement,Réussite,Aucun,Virement,1,18.0
+2025-01-01,WEB,Retrait,Réussite,Aucun,Retrait,1,18.0
+2025-02-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,33,0.0
+2025-02-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,72,57861.52
+2025-02-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,68,4152.15
+2025-02-01,WEB,Dépôt,Réussite,Aucun,Dépôt,38,25111.24
+2025-02-01,MOBILE,Connexion,Réussite,Aucun,Connexion,258,0.0
+2025-02-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,151,0.0
+2025-02-01,MOBILE,Virement,Réussite,Aucun,Virement,44,9566.0
+2025-02-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,377,14201.62
+2025-02-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,28,896.49
+2025-02-01,PARTNER,Connexion,Réussite,Aucun,Connexion,26,0.0
+2025-02-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,19,0.0
+2025-02-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,14,0.0
+2025-02-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,162,6702.16
+2025-02-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,9,707.0
+2025-02-01,WEB,Connexion,Réussite,Aucun,Connexion,129,0.0
+2025-02-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,83,0.0
+2025-02-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,36,1995.68
+2025-02-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2025-02-01,MOBILE,Retrait,Réussite,Aucun,Retrait,35,16770.0
+2025-02-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,10,0.0
+2025-02-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,9,4548.44
+2025-02-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,3,0.0
+2025-02-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,8,0.0
+2025-02-01,WEB,Retrait,Réussite,Aucun,Retrait,16,7212.0
+2025-02-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,4,1582.0
+2025-02-01,WEB,Virement,Réussite,Aucun,Virement,21,5675.0
+2025-02-01,PARTNER,Virement,Réussite,Aucun,Virement,2,727.0
+2025-02-01,PARTNER,Retrait,Réussite,Aucun,Retrait,3,248.0
+2025-02-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,4,40.0
+2025-02-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,1,324.0
+2025-02-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,1,10.0
+2025-02-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,3,2481.0
+2025-02-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,6,223.68
+2025-02-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,3,0.0
+2025-03-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,21,0.0
+2025-03-01,WEB,Dépôt,Réussite,Aucun,Dépôt,66,51090.1
+2025-03-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,313,11591.31
+2025-03-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,134,98838.57
+2025-03-01,MOBILE,Connexion,Réussite,Aucun,Connexion,424,0.0
+2025-03-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,270,0.0
+2025-03-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,737,28392.92
+2025-03-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,82,4822.3
+2025-03-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,79,5353.29
+2025-03-01,WEB,Connexion,Réussite,Aucun,Connexion,218,0.0
+2025-03-01,WEB,Virement,Réussite,Aucun,Virement,39,12157.0
+2025-03-01,MOBILE,Retrait,Réussite,Aucun,Retrait,76,35263.0
+2025-03-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,12,0.0
+2025-03-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,144,0.0
+2025-03-01,MOBILE,Virement,Réussite,Aucun,Virement,70,22837.0
+2025-03-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,59,2742.3
+2025-03-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,18,1182.97
+2025-03-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,35,0.0
+2025-03-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,11,0.0
+2025-03-01,PARTNER,Connexion,Réussite,Aucun,Connexion,54,0.0
+2025-03-01,PARTNER,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,3,30.0
+2025-03-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,15,0.0
+2025-03-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,21,11375.07
+2025-03-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,28,0.0
+2025-03-01,WEB,Retrait,Réussite,Aucun,Retrait,23,15353.0
+2025-03-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,18,0.0
+2025-03-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,8,8262.0
+2025-03-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,10,9703.0
+2025-03-01,PARTNER,Retrait,Réussite,Aucun,Retrait,6,1471.0
+2025-03-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,3,0.0
+2025-03-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,1,53.0
+2025-03-01,PARTNER,Virement,Réussite,Aucun,Virement,7,702.0
+2025-03-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,1,16.0
+2025-03-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,1,199.0
+2025-03-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,3,30.0
+2025-03-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,2,20.0
+2025-04-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,42,2935.11
+2025-04-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,170,165493.73
+2025-04-01,WEB,Dépôt,Réussite,Aucun,Dépôt,64,62815.21
+2025-04-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,19,12658.61
+2025-04-01,WEB,Connexion,Réussite,Aucun,Connexion,252,0.0
+2025-04-01,MOBILE,Connexion,Réussite,Aucun,Connexion,641,0.0
+2025-04-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,145,0.0
+2025-04-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,402,0.0
+2025-04-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,1110,42898.21
+2025-04-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,114,9055.65
+2025-04-01,WEB,Retrait,Réussite,Aucun,Retrait,49,27474.81
+2025-04-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,467,19247.65
+2025-04-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,44,0.0
+2025-04-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,23,0.0
+2025-04-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,21,0.0
+2025-04-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,96,3490.68
+2025-04-01,MOBILE,Virement,Réussite,Aucun,Virement,123,40543.0
+2025-04-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,16,8944.0
+2025-04-01,PARTNER,Connexion,Réussite,Aucun,Connexion,75,0.0
+2025-04-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,45,0.0
+2025-04-01,WEB,Virement,Réussite,Aucun,Virement,59,13291.0
+2025-04-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,9,5109.0
+2025-04-01,MOBILE,Retrait,Réussite,Aucun,Retrait,106,57080.0
+2025-04-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,9,0.0
+2025-04-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,9,0.0
+2025-04-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,28,1309.4
+2025-04-01,PARTNER,Retrait,Réussite,Aucun,Retrait,15,5041.0
+2025-04-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,24,0.0
+2025-04-01,PARTNER,Virement,Réussite,Aucun,Virement,15,2439.0
+2025-04-01,WEB,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2025-04-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,7,0.0
+2025-04-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,2,3511.0
+2025-04-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,9,2277.0
+2025-04-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,2,250.0
+2025-04-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,3,30.0
+2025-04-01,MOBILE,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2025-04-01,MOBILE,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,1,221.0
+2025-04-01,WEB,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2025-04-01,PARTNER,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2025-04-01,UNKNOWN,Connexion,Échec,carte inconnue,Connexion : carte inconnue,1,0.0
+2025-05-01,MOBILE,Connexion,Réussite,Aucun,Connexion,823,0.0
+2025-05-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,198,177518.88
+2025-05-01,WEB,Connexion,Réussite,Aucun,Connexion,379,0.0
+2025-05-01,WEB,Dépôt,Réussite,Aucun,Dépôt,113,98615.93
+2025-05-01,MOBILE,Virement,Réussite,Aucun,Virement,165,47045.0
+2025-05-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,144,7468.15
+2025-05-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,1344,51518.82
+2025-05-01,MOBILE,Retrait,Réussite,Aucun,Retrait,153,90993.0
+2025-05-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,500,0.0
+2025-05-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,572,24731.91
+2025-05-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,254,0.0
+2025-05-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,12,390.64
+2025-05-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,2,0.0
+2025-05-01,PARTNER,Connexion,Réussite,Aucun,Connexion,94,0.0
+2025-05-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,67,0.0
+2025-05-01,WEB,Virement,Réussite,Aucun,Virement,65,30401.0
+2025-05-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,160,6024.75
+2025-05-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,50,4925.09
+2025-05-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,28,0.0
+2025-05-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,30,21182.73
+2025-05-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,25,0.0
+2025-05-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,53,0.0
+2025-05-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,27,0.0
+2025-05-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,2,3384.0
+2025-05-01,WEB,Retrait,Réussite,Aucun,Retrait,56,32333.5
+2025-05-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,21,26076.0
+2025-05-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,7,1841.0
+2025-05-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,1,10.0
+2025-05-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,5,8366.0
+2025-05-01,PARTNER,Virement,Réussite,Aucun,Virement,18,4262.0
+2025-05-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,5,50.0
+2025-05-01,PARTNER,Retrait,Réussite,Aucun,Retrait,8,5120.32
+2025-05-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,5,3488.0
+2025-05-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,11,0.0
+2025-05-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,7,0.0
+2025-05-01,PARTNER,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2025-05-01,WEB,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,1,435.0
+2025-05-01,MOBILE,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2025-05-01,PARTNER,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,1,10.0
+2025-05-01,MOBILE,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,1,27.0
+2025-05-01,WEB,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2025-06-01,MOBILE,Connexion,Réussite,Aucun,Connexion,1056,0.0
+2025-06-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,296,267922.93
+2025-06-01,WEB,Connexion,Réussite,Aucun,Connexion,485,0.0
+2025-06-01,WEB,Dépôt,Réussite,Aucun,Dépôt,145,147001.86
+2025-06-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,37,29985.39
+2025-06-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,16,2542.69
+2025-06-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,324,0.0
+2025-06-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,821,33285.85
+2025-06-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,679,0.0
+2025-06-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,193,7795.95
+2025-06-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,139,8192.26
+2025-06-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,1828,70463.27
+2025-06-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,57,3585.72
+2025-06-01,WEB,Virement,Réussite,Aucun,Virement,110,48921.0
+2025-06-01,MOBILE,Retrait,Réussite,Aucun,Retrait,181,106052.12
+2025-06-01,MOBILE,Virement,Réussite,Aucun,Virement,215,83666.0
+2025-06-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,2,20.0
+2025-06-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,38,0.0
+2025-06-01,WEB,Retrait,Réussite,Aucun,Retrait,59,43852.79
+2025-06-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,47,0.0
+2025-06-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,21,20944.0
+2025-06-01,PARTNER,Connexion,Réussite,Aucun,Connexion,142,0.0
+2025-06-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,102,0.0
+2025-06-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,47,0.0
+2025-06-01,PARTNER,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,1,10.0
+2025-06-01,PARTNER,Virement,Réussite,Aucun,Virement,22,12919.0
+2025-06-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,5,0.0
+2025-06-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,22,0.0
+2025-06-01,PARTNER,Retrait,Réussite,Aucun,Retrait,18,9268.0
+2025-06-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,8,0.0
+2025-06-01,MOBILE,Virement,Échec,carte inconnue,Virement : carte inconnue,1,86.0
+2025-06-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,9,12673.0
+2025-06-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,2,4665.0
+2025-06-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,11,0.0
+2025-06-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,9,4928.0
+2025-06-01,MOBILE,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,3,1845.0
+2025-06-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,5,4180.0
+2025-06-01,WEB,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2025-06-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,1,2226.0
+2025-06-01,MOBILE,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2025-06-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,1,10.0
+2025-06-01,MOBILE,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2025-07-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,56,0.0
+2025-07-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,2253,108653.98
+2025-07-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,325,290450.32
+2025-07-01,WEB,Dépôt,Réussite,Aucun,Dépôt,152,171170.2
+2025-07-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,36,30296.42
+2025-07-01,MOBILE,Connexion,Réussite,Aucun,Connexion,1223,0.0
+2025-07-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,789,0.0
+2025-07-01,WEB,Connexion,Réussite,Aucun,Connexion,547,0.0
+2025-07-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,345,0.0
+2025-07-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,1089,54015.98
+2025-07-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,34,0.0
+2025-07-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,256,12413.14
+2025-07-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,312,30052.21
+2025-07-01,WEB,Retrait,Réussite,Aucun,Retrait,96,65462.0
+2025-07-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,13,6823.0
+2025-07-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,93,7825.74
+2025-07-01,WEB,Virement,Réussite,Aucun,Virement,107,43872.0
+2025-07-01,MOBILE,Virement,Réussite,Aucun,Virement,231,95126.0
+2025-07-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,10,1491.75
+2025-07-01,MOBILE,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,2,932.0
+2025-07-01,PARTNER,Connexion,Réussite,Aucun,Connexion,136,0.0
+2025-07-01,PARTNER,Retrait,Réussite,Aucun,Retrait,20,13265.0
+2025-07-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,55,0.0
+2025-07-01,MOBILE,Retrait,Réussite,Aucun,Retrait,212,130516.0
+2025-07-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,28,0.0
+2025-07-01,PARTNER,Virement,Réussite,Aucun,Virement,26,9539.0
+2025-07-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,33,25787.0
+2025-07-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,96,0.0
+2025-07-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,30,0.0
+2025-07-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,15,6997.0
+2025-07-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,3,556.0
+2025-07-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,6,0.0
+2025-07-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,1,469.0
+2025-07-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,6,60.0
+2025-07-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,2,0.0
+2025-07-01,MOBILE,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2025-07-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,3,30.0
+2025-07-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2025-07-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,2,1041.0
+2025-07-01,WEB,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2025-07-01,MOBILE,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,1,62.0
+2025-08-01,MOBILE,Connexion,Réussite,Aucun,Connexion,1363,0.0
+2025-08-01,MOBILE,Virement,Réussite,Aucun,Virement,270,78165.0
+2025-08-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,1229,59859.65
+2025-08-01,WEB,Dépôt,Réussite,Aucun,Dépôt,172,195599.18
+2025-08-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,358,337266.38
+2025-08-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,41,42277.03
+2025-08-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,880,0.0
+2025-08-01,MOBILE,Retrait,Réussite,Aucun,Retrait,250,145314.63
+2025-08-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,2613,130244.28
+2025-08-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,28,12945.0
+2025-08-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,15,2103.77
+2025-08-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,292,23425.35
+2025-08-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,278,13286.03
+2025-08-01,WEB,Connexion,Réussite,Aucun,Connexion,712,0.0
+2025-08-01,WEB,Virement,Réussite,Aucun,Virement,149,46186.0
+2025-08-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,152,13250.51
+2025-08-01,WEB,Retrait,Réussite,Aucun,Retrait,122,77937.25
+2025-08-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,461,0.0
+2025-08-01,PARTNER,Connexion,Réussite,Aucun,Connexion,157,0.0
+2025-08-01,PARTNER,Retrait,Réussite,Aucun,Retrait,24,15730.87
+2025-08-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,18,16146.0
+2025-08-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,51,0.0
+2025-08-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,24,0.0
+2025-08-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,106,0.0
+2025-08-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,54,0.0
+2025-08-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,51,0.0
+2025-08-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,8,4978.0
+2025-08-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,23,0.0
+2025-08-01,PARTNER,Virement,Réussite,Aucun,Virement,32,8360.0
+2025-08-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,6,0.0
+2025-08-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,3,30.0
+2025-08-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,2,153.0
+2025-08-01,MOBILE,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,3,1000.0
+2025-08-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,3,30.0
+2025-08-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,8,2403.0
+2025-08-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2025-08-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,3,2952.0
+2025-08-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,7,0.0
+2025-08-01,WEB,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2025-08-01,PARTNER,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2025-08-01,MOBILE,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2025-08-01,MOBILE,Virement,Échec,carte inconnue,Virement : carte inconnue,1,10.0
+2025-09-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,2936,120976.17
+2025-09-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,67,0.0
+2025-09-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,98,0.0
+2025-09-01,WEB,Dépôt,Réussite,Aucun,Dépôt,274,284416.58
+2025-09-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,466,433458.94
+2025-09-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,63,67625.05
+2025-09-01,MOBILE,Connexion,Réussite,Aucun,Connexion,1769,0.0
+2025-09-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,39,43643.0
+2025-09-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,1522,62323.17
+2025-09-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,1123,0.0
+2025-09-01,MOBILE,Retrait,Réussite,Aucun,Retrait,295,180598.32
+2025-09-01,MOBILE,Clôture de compte,Réussite,Aucun,Clôture de compte,5,0.0
+2025-09-01,WEB,Connexion,Réussite,Aucun,Connexion,939,0.0
+2025-09-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,608,0.0
+2025-09-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,301,18952.53
+2025-09-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,295,12976.1
+2025-09-01,MOBILE,Virement,Réussite,Aucun,Virement,356,121940.0
+2025-09-01,PARTNER,Connexion,Réussite,Aucun,Connexion,194,0.0
+2025-09-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,119,0.0
+2025-09-01,WEB,Retrait,Réussite,Aucun,Retrait,155,90009.0
+2025-09-01,WEB,Virement,Réussite,Aucun,Virement,173,66588.0
+2025-09-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,27,1610.39
+2025-09-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,7,0.0
+2025-09-01,WEB,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,2,458.0
+2025-09-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,123,10197.01
+2025-09-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,73,0.0
+2025-09-01,PARTNER,Virement,Réussite,Aucun,Virement,45,23401.0
+2025-09-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,1,288.0
+2025-09-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,33,0.0
+2025-09-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,18,0.0
+2025-09-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,64,0.0
+2025-09-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,14,140.0
+2025-09-01,UNKNOWN,Connexion,Échec,carte inconnue,Connexion : carte inconnue,2,0.0
+2025-09-01,PARTNER,Retrait,Réussite,Aucun,Retrait,27,21109.0
+2025-09-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,11,24496.0
+2025-09-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,6,60.0
+2025-09-01,WEB,Virement,Échec,montant invalide,Virement : montant invalide,2,0.0
+2025-09-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,12,3985.0
+2025-09-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,12,3288.0
+2025-09-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,3,3193.0
+2025-09-01,MOBILE,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,4,2532.0
+2025-09-01,WEB,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2025-09-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2025-09-01,MOBILE,Virement,Échec,carte inconnue,Virement : carte inconnue,2,643.0
+2025-09-01,PARTNER,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,1,10.0
+2025-10-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,3700,151138.26
+2025-10-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,88,0.0
+2025-10-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,1878,76597.57
+2025-10-01,MOBILE,Connexion,Réussite,Aucun,Connexion,2225,0.0
+2025-10-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,1456,0.0
+2025-10-01,WEB,Dépôt,Réussite,Aucun,Dépôt,303,326067.9
+2025-10-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,551,511511.36
+2025-10-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,77,86744.27
+2025-10-01,WEB,Connexion,Réussite,Aucun,Connexion,1121,0.0
+2025-10-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,748,0.0
+2025-10-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,438,17468.49
+2025-10-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,362,20867.04
+2025-10-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,7,70.0
+2025-10-01,PARTNER,Connexion,Réussite,Aucun,Connexion,278,0.0
+2025-10-01,PARTNER,Virement,Réussite,Aucun,Virement,37,12265.0
+2025-10-01,MOBILE,Virement,Réussite,Aucun,Virement,424,181162.0
+2025-10-01,WEB,Virement,Réussite,Aucun,Virement,226,93909.0
+2025-10-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,205,0.0
+2025-10-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,31,2353.83
+2025-10-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,14,11001.0
+2025-10-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,74,0.0
+2025-10-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,78,0.0
+2025-10-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,122,7730.43
+2025-10-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,18,180.0
+2025-10-01,WEB,Retrait,Réussite,Aucun,Retrait,187,139558.94
+2025-10-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,6,0.0
+2025-10-01,MOBILE,Retrait,Réussite,Aucun,Retrait,373,236021.63
+2025-10-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,38,0.0
+2025-10-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,58,0.0
+2025-10-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,44,51097.0
+2025-10-01,PARTNER,Retrait,Réussite,Aucun,Retrait,43,24261.89
+2025-10-01,UNKNOWN,Connexion,Échec,carte inconnue,Connexion : carte inconnue,2,0.0
+2025-10-01,MOBILE,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,2,1313.0
+2025-10-01,MOBILE,Virement,Échec,montant invalide,Virement : montant invalide,3,0.0
+2025-10-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,14,0.0
+2025-10-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,4,1257.0
+2025-10-01,MOBILE,Clôture de compte,Réussite,Aucun,Clôture de compte,2,0.0
+2025-10-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,19,14190.0
+2025-10-01,WEB,Clôture de compte,Réussite,Aucun,Clôture de compte,3,0.0
+2025-10-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,6,5936.0
+2025-10-01,PARTNER,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,1,2313.0
+2025-10-01,WEB,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,1,314.0
+2025-10-01,PARTNER,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2025-10-01,WEB,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,2,199.0
+2025-10-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,3,5747.0
+2025-10-01,WEB,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2025-10-01,MOBILE,Virement,Échec,carte inconnue,Virement : carte inconnue,2,930.0
+2025-10-01,PARTNER,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,1,10.0
+2025-11-01,MOBILE,Connexion,Réussite,Aucun,Connexion,2409,0.0
+2025-11-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,1568,0.0
+2025-11-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,2370,95539.47
+2025-11-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,604,607170.84
+2025-11-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,178,11546.99
+2025-11-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,4685,194645.3
+2025-11-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,392,24567.34
+2025-11-01,WEB,Dépôt,Réussite,Aucun,Dépôt,332,378137.56
+2025-11-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,71,75028.04
+2025-11-01,WEB,Connexion,Réussite,Aucun,Connexion,1258,0.0
+2025-11-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,846,0.0
+2025-11-01,MOBILE,Virement,Réussite,Aucun,Virement,518,193260.0
+2025-11-01,MOBILE,Retrait,Réussite,Aucun,Retrait,432,262359.43
+2025-11-01,PARTNER,Connexion,Réussite,Aucun,Connexion,263,0.0
+2025-11-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,187,0.0
+2025-11-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,36,1456.38
+2025-11-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,487,19655.74
+2025-11-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,90,0.0
+2025-11-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,24,8616.0
+2025-11-01,WEB,Virement,Réussite,Aucun,Virement,242,109701.0
+2025-11-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,80,0.0
+2025-11-01,WEB,Retrait,Réussite,Aucun,Retrait,224,165007.53
+2025-11-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,54,70539.0
+2025-11-01,PARTNER,Virement,Réussite,Aucun,Virement,47,19072.0
+2025-11-01,PARTNER,Retrait,Réussite,Aucun,Retrait,41,32013.0
+2025-11-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,9,90.0
+2025-11-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,54,0.0
+2025-11-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,36,0.0
+2025-11-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,43,0.0
+2025-11-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,18,29568.0
+2025-11-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,3,30.0
+2025-11-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,11,14565.0
+2025-11-01,WEB,Clôture de compte,Réussite,Aucun,Clôture de compte,4,0.0
+2025-11-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,8,0.0
+2025-11-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,9,0.0
+2025-11-01,MOBILE,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,3,660.0
+2025-11-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,3,0.0
+2025-11-01,UNKNOWN,Connexion,Échec,carte inconnue,Connexion : carte inconnue,1,0.0
+2025-11-01,PARTNER,Virement,Échec,carte inconnue,Virement : carte inconnue,1,407.0
+2025-11-01,MOBILE,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,3,1114.0
+2025-11-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,2,932.0
+2025-11-01,PARTNER,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,1,652.0
+2025-11-01,WEB,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2025-11-01,WEB,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,2,241.0
+2025-11-01,MOBILE,Clôture de compte,Réussite,Aucun,Clôture de compte,2,0.0
+2025-11-01,WEB,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2025-11-01,MOBILE,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2025-11-01,WEB,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,1,454.0
+2025-11-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,1,761.0
+2025-12-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,508,32631.8
+2025-12-01,WEB,Connexion,Réussite,Aucun,Connexion,1406,0.0
+2025-12-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,926,0.0
+2025-12-01,MOBILE,Connexion,Réussite,Aucun,Connexion,2556,0.0
+2025-12-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,1669,0.0
+2025-12-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,5817,248197.11
+2025-12-01,WEB,Dépôt,Réussite,Aucun,Dépôt,347,416001.11
+2025-12-01,MOBILE,Retrait,Réussite,Aucun,Retrait,504,331353.01
+2025-12-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,3044,128408.29
+2025-12-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,631,717319.58
+2025-12-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,79,77159.27
+2025-12-01,PARTNER,Connexion,Réussite,Aucun,Connexion,322,0.0
+2025-12-01,PARTNER,Virement,Réussite,Aucun,Virement,69,36017.0
+2025-12-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,676,28314.22
+2025-12-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,270,19072.55
+2025-12-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,50,0.0
+2025-12-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,107,0.0
+2025-12-01,MOBILE,Virement,Réussite,Aucun,Virement,521,244396.0
+2025-12-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,212,0.0
+2025-12-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,54,82588.0
+2025-12-01,WEB,Retrait,Réussite,Aucun,Retrait,261,181144.0
+2025-12-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,41,2930.69
+2025-12-01,WEB,Virement,Réussite,Aucun,Virement,273,133060.0
+2025-12-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,82,0.0
+2025-12-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,27,27361.0
+2025-12-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,7,70.0
+2025-12-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,12,120.0
+2025-12-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,44,0.0
+2025-12-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,36,19908.0
+2025-12-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,10,2761.0
+2025-12-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,12,0.0
+2025-12-01,PARTNER,Retrait,Réussite,Aucun,Retrait,53,41110.61
+2025-12-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,8,11244.0
+2025-12-01,WEB,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,2,3574.0
+2025-12-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,39,0.0
+2025-12-01,MOBILE,Clôture de compte,Réussite,Aucun,Clôture de compte,6,0.0
+2025-12-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2025-12-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,5,0.0
+2025-12-01,MOBILE,Virement,Échec,carte inconnue,Virement : carte inconnue,3,561.0
+2025-12-01,WEB,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2025-12-01,MOBILE,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,2,557.0
+2025-12-01,MOBILE,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,2,493.0
+2025-12-01,PARTNER,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2025-12-01,UNKNOWN,Connexion,Échec,carte inconnue,Connexion : carte inconnue,1,0.0
+2025-12-01,WEB,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,1,13.0
+2026-01-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,4569,192163.95
+2026-01-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,55,0.0
+2026-01-01,WEB,Connexion,Réussite,Aucun,Connexion,1579,0.0
+2026-01-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,1014,0.0
+2026-01-01,WEB,Dépôt,Réussite,Aucun,Dépôt,416,490658.21
+2026-01-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,704,718896.11
+2026-01-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,86,75689.48
+2026-01-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,474,16844.67
+2026-01-01,PARTNER,Connexion,Réussite,Aucun,Connexion,338,0.0
+2026-01-01,PARTNER,Retrait,Réussite,Aucun,Retrait,58,39565.59
+2026-01-01,MOBILE,Connexion,Réussite,Aucun,Connexion,2821,0.0
+2026-01-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,1868,0.0
+2026-01-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,2568,106333.7
+2026-01-01,MOBILE,Virement,Réussite,Aucun,Virement,538,225810.0
+2026-01-01,WEB,Virement,Réussite,Aucun,Virement,319,146347.0
+2026-01-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,336,18921.46
+2026-01-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,234,0.0
+2026-01-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,72,0.0
+2026-01-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,22,11570.0
+2026-01-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,155,8964.7
+2026-01-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,9,0.0
+2026-01-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,26,1917.08
+2026-01-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,59,74213.0
+2026-01-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,91,0.0
+2026-01-01,WEB,Retrait,Réussite,Aucun,Retrait,289,215951.5
+2026-01-01,MOBILE,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,3,931.0
+2026-01-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,77,0.0
+2026-01-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,97,0.0
+2026-01-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,16,160.0
+2026-01-01,PARTNER,Virement,Réussite,Aucun,Virement,57,35307.0
+2026-01-01,WEB,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2026-01-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,3,5371.0
+2026-01-01,MOBILE,Retrait,Réussite,Aucun,Retrait,519,339838.44
+2026-01-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,27,16047.0
+2026-01-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,43,56173.0
+2026-01-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,21,0.0
+2026-01-01,MOBILE,Clôture de compte,Réussite,Aucun,Clôture de compte,8,0.0
+2026-01-01,MOBILE,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,2,2019.0
+2026-01-01,WEB,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2026-01-01,WEB,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,2,325.0
+2026-01-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,3,1257.0
+2026-01-01,MOBILE,Virement,Échec,carte inconnue,Virement : carte inconnue,2,77.0
+2026-01-01,MOBILE,Virement,Échec,montant invalide,Virement : montant invalide,2,0.0
+2026-01-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,3,30.0
+2026-01-01,PARTNER,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,1,12010.0
+2026-01-01,UNKNOWN,Connexion,Échec,carte inconnue,Connexion : carte inconnue,1,0.0
+2026-01-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2026-01-01,WEB,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,2,1402.0
+2026-01-01,PARTNER,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2026-01-01,WEB,Virement,Échec,carte inconnue,Virement : carte inconnue,1,237.0
+2026-02-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,26,0.0
+2026-02-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,45,3343.95
+2026-02-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,71,0.0
+2026-02-01,PARTNER,Connexion,Réussite,Aucun,Connexion,443,0.0
+2026-02-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,127,97611.6
+2026-02-01,MOBILE,Connexion,Réussite,Aucun,Connexion,3011,0.0
+2026-02-01,MOBILE,Retrait,Réussite,Aucun,Retrait,534,384565.37
+2026-02-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,304,0.0
+2026-02-01,WEB,Connexion,Réussite,Aucun,Connexion,1758,0.0
+2026-02-01,WEB,Dépôt,Réussite,Aucun,Dépôt,416,488734.84
+2026-02-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,120,0.0
+2026-02-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,740,801760.91
+2026-02-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,132,9848.52
+2026-02-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,4778,200588.47
+2026-02-01,MOBILE,Virement,Réussite,Aucun,Virement,653,302580.0
+2026-02-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,2654,112438.33
+2026-02-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,95,0.0
+2026-02-01,WEB,Virement,Réussite,Aucun,Virement,388,206028.0
+2026-02-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,14,0.0
+2026-02-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,1971,0.0
+2026-02-01,PARTNER,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,1,10.0
+2026-02-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,249,15508.05
+2026-02-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,1158,0.0
+2026-02-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,40,22247.0
+2026-02-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,611,26522.76
+2026-02-01,PARTNER,Retrait,Réussite,Aucun,Retrait,57,41077.41
+2026-02-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,25,18084.0
+2026-02-01,WEB,Retrait,Réussite,Aucun,Retrait,315,223646.85
+2026-02-01,MOBILE,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,3,1079.0
+2026-02-01,PARTNER,Virement,Réussite,Aucun,Virement,81,42311.0
+2026-02-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,77,0.0
+2026-02-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,54,81815.0
+2026-02-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,2,20.0
+2026-02-01,MOBILE,Virement,Échec,carte inconnue,Virement : carte inconnue,4,1913.0
+2026-02-01,MOBILE,Clôture de compte,Réussite,Aucun,Clôture de compte,9,0.0
+2026-02-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,5,2721.0
+2026-02-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,13,0.0
+2026-02-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,29,64022.0
+2026-02-01,MOBILE,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,7,12960.0
+2026-02-01,WEB,Virement,Échec,carte inconnue,Virement : carte inconnue,3,1065.0
+2026-02-01,PARTNER,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,3,1360.0
+2026-02-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,3,2533.0
+2026-02-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,3,30.0
+2026-02-01,WEB,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,2,1426.0
+2026-02-01,UNKNOWN,Connexion,Échec,carte inconnue,Connexion : carte inconnue,1,0.0
+2026-02-01,WEB,Clôture de compte,Réussite,Aucun,Clôture de compte,2,0.0
+2026-02-01,MOBILE,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2026-02-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2026-02-01,PARTNER,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2026-02-01,WEB,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,1,45.0
+2026-03-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,3208,128249.93
+2026-03-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,388,26656.59
+2026-03-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,5803,234616.41
+2026-03-01,MOBILE,Connexion,Réussite,Aucun,Connexion,3286,0.0
+2026-03-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,2159,0.0
+2026-03-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,799,862370.17
+2026-03-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,110,123035.85
+2026-03-01,WEB,Dépôt,Réussite,Aucun,Dépôt,448,545119.09
+2026-03-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,32,16529.0
+2026-03-01,MOBILE,Virement,Réussite,Aucun,Virement,692,301129.0
+2026-03-01,WEB,Connexion,Réussite,Aucun,Connexion,1771,0.0
+2026-03-01,WEB,Retrait,Réussite,Aucun,Retrait,310,250613.38
+2026-03-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,51,4893.15
+2026-03-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,14,0.0
+2026-03-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,136,7799.34
+2026-03-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,1207,0.0
+2026-03-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,771,31634.09
+2026-03-01,MOBILE,Retrait,Réussite,Aucun,Retrait,584,424317.97
+2026-03-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,62,0.0
+2026-03-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,107,0.0
+2026-03-01,WEB,Virement,Réussite,Aucun,Virement,352,210661.0
+2026-03-01,PARTNER,Connexion,Réussite,Aucun,Connexion,425,0.0
+2026-03-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,287,0.0
+2026-03-01,PARTNER,Virement,Réussite,Aucun,Virement,80,44664.0
+2026-03-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,71,115754.0
+2026-03-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,61,0.0
+2026-03-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,113,0.0
+2026-03-01,PARTNER,Retrait,Réussite,Aucun,Retrait,76,50308.7
+2026-03-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,7,11051.0
+2026-03-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,31,109101.0
+2026-03-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,36,0.0
+2026-03-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,15,150.0
+2026-03-01,WEB,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2026-03-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,6,5693.0
+2026-03-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,12,3416.0
+2026-03-01,MOBILE,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,7,7350.0
+2026-03-01,MOBILE,Clôture de compte,Réussite,Aucun,Clôture de compte,4,0.0
+2026-03-01,PARTNER,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2026-03-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,14,0.0
+2026-03-01,WEB,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,3,1981.0
+2026-03-01,MOBILE,Virement,Échec,carte inconnue,Virement : carte inconnue,4,8665.0
+2026-03-01,WEB,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,2,1011.0
+2026-03-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2026-03-01,MOBILE,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,3,569.0
+2026-03-01,MOBILE,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2026-03-01,WEB,Virement,Échec,carte inconnue,Virement : carte inconnue,3,580.0
+2026-03-01,PARTNER,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2026-03-01,PARTNER,Virement,Échec,carte inconnue,Virement : carte inconnue,1,272.0
+2026-03-01,WEB,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
+2026-03-01,PARTNER,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,1,10.0
+2026-03-01,PARTNER,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,1,380.0
+2026-03-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,1,10.0
+2026-04-01,MOBILE,Connexion,Réussite,Aucun,Connexion,3573,0.0
+2026-04-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,2366,0.0
+2026-04-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,6303,258815.8
+2026-04-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,42,0.0
+2026-04-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,3348,141922.64
+2026-04-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,846,936650.57
+2026-04-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,94,102704.57
+2026-04-01,WEB,Dépôt,Réussite,Aucun,Dépôt,493,566297.34
+2026-04-01,MOBILE,Retrait,Réussite,Aucun,Retrait,668,485341.02
+2026-04-01,MOBILE,Clôture de compte,Réussite,Aucun,Clôture de compte,9,0.0
+2026-04-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,154,0.0
+2026-04-01,WEB,Connexion,Réussite,Aucun,Connexion,1960,0.0
+2026-04-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,1329,0.0
+2026-04-01,PARTNER,Connexion,Réussite,Aucun,Connexion,440,0.0
+2026-04-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,297,0.0
+2026-04-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,753,28784.65
+2026-04-01,MOBILE,Virement,Réussite,Aucun,Virement,711,383481.0
+2026-04-01,WEB,Virement,Réussite,Aucun,Virement,398,234923.0
+2026-04-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,82,144764.0
+2026-04-01,WEB,Retrait,Réussite,Aucun,Retrait,329,266338.18
+2026-04-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,69,0.0
+2026-04-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,325,21802.94
+2026-04-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,204,13143.27
+2026-04-01,WEB,Clôture de compte,Réussite,Aucun,Clôture de compte,4,0.0
+2026-04-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,32,24976.0
+2026-04-01,PARTNER,Virement,Réussite,Aucun,Virement,89,50443.0
+2026-04-01,PARTNER,Retrait,Réussite,Aucun,Retrait,75,63332.58
+2026-04-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,16,28618.0
+2026-04-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,126,0.0
+2026-04-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,17,21549.0
+2026-04-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,39,63177.0
+2026-04-01,WEB,Dépôt,Échec,montant invalide,Dépôt : montant invalide,2,0.0
+2026-04-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,66,0.0
+2026-04-01,MOBILE,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,5,823.0
+2026-04-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,15,0.0
+2026-04-01,WEB,Virement,Échec,montant invalide,Virement : montant invalide,3,0.0
+2026-04-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,54,2704.25
+2026-04-01,PARTNER,Clôture de compte,Réussite,Aucun,Clôture de compte,3,0.0
+2026-04-01,WEB,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,2,230.0
+2026-04-01,MOBILE,Virement,Échec,carte inconnue,Virement : carte inconnue,4,5174.0
+2026-04-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,11,0.0
+2026-04-01,MOBILE,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2026-04-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,10,100.0
+2026-04-01,WEB,Virement,Échec,carte inconnue,Virement : carte inconnue,2,1142.0
+2026-04-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,3,1166.0
+2026-04-01,PARTNER,Virement,Échec,carte inconnue,Virement : carte inconnue,1,1764.0
+2026-04-01,UNKNOWN,Connexion,Échec,carte inconnue,Connexion : carte inconnue,1,0.0
+2026-04-01,MOBILE,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,1,916.0
+2026-04-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,3,30.0
+2026-04-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,2,0.0
+2026-05-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,426,25390.17
+2026-05-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,3723,152259.98
+2026-05-01,MOBILE,Connexion,Réussite,Aucun,Connexion,3943,0.0
+2026-05-01,MOBILE,Virement,Réussite,Aucun,Virement,791,432206.0
+2026-05-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,2599,0.0
+2026-05-01,WEB,Connexion,Réussite,Aucun,Connexion,2127,0.0
+2026-05-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,1409,0.0
+2026-05-01,PARTNER,Connexion,Réussite,Aucun,Connexion,489,0.0
+2026-05-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,133,118368.26
+2026-05-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,32,0.0
+2026-05-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,960,1042685.89
+2026-05-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,776,33291.59
+2026-05-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,6704,278520.77
+2026-05-01,WEB,Dépôt,Réussite,Aucun,Dépôt,530,614210.86
+2026-05-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,157,0.0
+2026-05-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,189,13175.46
+2026-05-01,MOBILE,Retrait,Réussite,Aucun,Retrait,736,539879.89
+2026-05-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,39,23497.0
+2026-05-01,WEB,Virement,Réussite,Aucun,Virement,426,270078.0
+2026-05-01,PARTNER,Virement,Réussite,Aucun,Virement,101,51293.0
+2026-05-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,75,0.0
+2026-05-01,WEB,Retrait,Réussite,Aucun,Retrait,406,314503.35
+2026-05-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,325,0.0
+2026-05-01,MOBILE,Clôture de compte,Réussite,Aucun,Clôture de compte,11,0.0
+2026-05-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,57,4422.47
+2026-05-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,42,73525.0
+2026-05-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,131,0.0
+2026-05-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,72,0.0
+2026-05-01,MOBILE,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,15,5210.0
+2026-05-01,PARTNER,Retrait,Réussite,Aucun,Retrait,71,61362.15
+2026-05-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,5,50.0
+2026-05-01,WEB,Virement,Échec,carte inconnue,Virement : carte inconnue,2,906.0
+2026-05-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,75,155437.0
+2026-05-01,PARTNER,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2026-05-01,WEB,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,5,8097.0
+2026-05-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,10,100.0
+2026-05-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,14,0.0
+2026-05-01,WEB,Dépôt,Échec,montant invalide,Dépôt : montant invalide,2,0.0
+2026-05-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,14,0.0
+2026-05-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,10,18303.0
+2026-05-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,23,19239.0
+2026-05-01,MOBILE,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2026-05-01,PARTNER,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,1,10.0
+2026-05-01,MOBILE,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,5,1661.0
+2026-05-01,WEB,Clôture de compte,Réussite,Aucun,Clôture de compte,3,0.0
+2026-05-01,WEB,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,4,509.0
+2026-05-01,MOBILE,Virement,Échec,carte inconnue,Virement : carte inconnue,3,2067.0
+2026-05-01,PARTNER,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,1,1395.0
+2026-05-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,6,737.0
+2026-05-01,PARTNER,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,1,368.0
+2026-05-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,1,0.0
+2026-05-01,PARTNER,Clôture de compte,Réussite,Aucun,Clôture de compte,2,0.0
+2026-06-01,MOBILE,Connexion,Réussite,Aucun,Connexion,3993,0.0
+2026-06-01,WEB,Paiement carte,Réussite,Aucun,Paiement carte,4232,177024.19
+2026-06-01,MOBILE,Virement,Réussite,Aucun,Virement,833,490136.0
+2026-06-01,WEB,Connexion,Réussite,Aucun,Connexion,2292,0.0
+2026-06-01,WEB,Virement,Réussite,Aucun,Virement,477,320491.0
+2026-06-01,MOBILE,Paiement carte,Réussite,Aucun,Paiement carte,7607,311026.55
+2026-06-01,PARTNER,Paiement carte,Réussite,Aucun,Paiement carte,836,31410.72
+2026-06-01,MOBILE,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,452,31997.18
+2026-06-01,MOBILE,Consultation du solde,Réussite,Aucun,Consultation du solde,2675,0.0
+2026-06-01,MOBILE,Dépôt,Réussite,Aucun,Dépôt,989,1091902.9
+2026-06-01,WEB,Dépôt,Réussite,Aucun,Dépôt,549,689505.43
+2026-06-01,PARTNER,Dépôt,Réussite,Aucun,Dépôt,142,126689.05
+2026-06-01,PARTNER,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,68,5401.16
+2026-06-01,WEB,Consultation du solde,Réussite,Aucun,Consultation du solde,1550,0.0
+2026-06-01,MOBILE,Retrait,Réussite,Aucun,Retrait,710,570408.35
+2026-06-01,WEB,Ouverture de compte,Réussite,Aucun,Ouverture de compte,45,0.0
+2026-06-01,PARTNER,Connexion,Réussite,Aucun,Connexion,512,0.0
+2026-06-01,PARTNER,Consultation du solde,Réussite,Aucun,Consultation du solde,345,0.0
+2026-06-01,MOBILE,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,11,2670.0
+2026-06-01,MOBILE,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,131,0.0
+2026-06-01,UNKNOWN,Connexion,Échec,numéro de carte invalide,Connexion : numéro de carte invalide,130,0.0
+2026-06-01,MOBILE,Virement,Échec,solde insuffisant,Virement : solde insuffisant,84,154211.0
+2026-06-01,WEB,Paiement carte,Échec,solde insuffisant,Paiement carte : solde insuffisant,216,13207.01
+2026-06-01,MOBILE,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,40,24031.0
+2026-06-01,PARTNER,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,2,681.0
+2026-06-01,WEB,Retrait,Réussite,Aucun,Retrait,383,319851.45
+2026-06-01,PARTNER,Virement,Échec,solde insuffisant,Virement : solde insuffisant,10,18267.0
+2026-06-01,PARTNER,Virement,Réussite,Aucun,Virement,104,47324.0
+2026-06-01,PARTNER,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,3,601.0
+2026-06-01,WEB,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,81,0.0
+2026-06-01,PARTNER,Connexion,Échec,code PIN erroné,Connexion : code PIN erroné,24,0.0
+2026-06-01,WEB,Virement,Échec,numéro de carte invalide,Virement : numéro de carte invalide,22,50018.0
+2026-06-01,MOBILE,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,4,40.0
+2026-06-01,WEB,Virement,Échec,solde insuffisant,Virement : solde insuffisant,43,112304.0
+2026-06-01,PARTNER,Retrait,Réussite,Aucun,Retrait,79,57378.59
+2026-06-01,PARTNER,Ouverture de compte,Réussite,Aucun,Ouverture de compte,24,0.0
+2026-06-01,MOBILE,Ouverture de compte,Réussite,Aucun,Ouverture de compte,69,0.0
+2026-06-01,PARTNER,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,1,10.0
+2026-06-01,WEB,Virement,Échec,virement vers soi-même,Virement : virement vers soi-même,5,4831.0
+2026-06-01,WEB,Virement,Échec,bénéficiaire clôturé,Virement : bénéficiaire clôturé,2,1983.0
+2026-06-01,MOBILE,Dépôt,Échec,montant invalide,Dépôt : montant invalide,3,0.0
+2026-06-01,MOBILE,Clôture de compte,Réussite,Aucun,Clôture de compte,5,0.0
+2026-06-01,WEB,Retrait,Échec,solde insuffisant,Retrait : solde insuffisant,10,100.0
+2026-06-01,PARTNER,Virement,Échec,carte inconnue,Virement : carte inconnue,1,624.0
+2026-06-01,MOBILE,Virement,Échec,carte inconnue,Virement : carte inconnue,1,733.0
+2026-06-01,WEB,Clôture de compte,Réussite,Aucun,Clôture de compte,2,0.0
+2026-06-01,WEB,Dépôt,Échec,montant invalide,Dépôt : montant invalide,2,0.0
+2026-06-01,UNKNOWN,Connexion,Échec,carte inconnue,Connexion : carte inconnue,1,0.0
+2026-06-01,WEB,Virement,Échec,carte inconnue,Virement : carte inconnue,1,215.0
+2026-06-01,MOBILE,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2026-06-01,WEB,Virement,Échec,montant invalide,Virement : montant invalide,1,0.0
+2026-06-01,PARTNER,Clôture de compte,Réussite,Aucun,Clôture de compte,1,0.0
