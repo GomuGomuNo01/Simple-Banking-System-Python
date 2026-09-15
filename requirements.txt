@@ -1,0 +1,20 @@
+# Database access
+PyMySQL==1.2.0
+cryptography==50.0.1
+SQLAlchemy==2.0.53
+python-dotenv==1.2.3
+
+# Data generation and analysis
+Faker==40.39.0
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+matplotlib==3.11.2
+
+# Notebooks
+jupyter==1.1.1
+ipykernel==7.3.0
+nbconvert==7.17.1
+
+# Tests
+pytest==9.1.1

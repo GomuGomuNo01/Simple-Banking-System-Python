@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+
+# Local secrets (database credentials)
+.env
+
+# Generated data (fully reproducible with: python -m sbs_bank.pipeline all)
+data/raw/*
+!data/raw/.gitkeep
+
+# IDE (JetBrains)
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

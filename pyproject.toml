@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sbs-bank"
+version = "1.0.0"
+description = "SBS Bank: banking application, MySQL database and customer activity analysis."
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.scripts]
+sbs-bank = "sbs_bank.cli:main"
+sbs-pipeline = "sbs_bank.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: requires a running MySQL server"]
