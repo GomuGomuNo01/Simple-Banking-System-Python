@@ -368,5 +368,4 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/analyse_activite_s
 | Bonnes pratiques | Tests automatisés, reproductibilité, secrets hors du code, Git avec commits thématiques |
 
 ## Auteur
-
-**Auteur** : Dibie Elisee Jules Cedric KOUADIO ([@GomuGomuNo01](https://github.com/GomuGomuNo01))
+Dibie Elisee Jules Cedric KOUADIO ([@GomuGomuNo01](https://github.com/GomuGomuNo01))
