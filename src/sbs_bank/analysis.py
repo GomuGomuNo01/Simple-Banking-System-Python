@@ -5,6 +5,7 @@ from __future__ import annotations
 from functools import cache
 
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 from sqlalchemy import text
 
@@ -29,6 +30,40 @@ STATUS_LABELS = {
 }
 
 
+SEGMENT_ORDER = ["Champions", "Clients réguliers", "Épargnants peu actifs", "Occasionnels", "À risque", "Endormis"]
+
+
+def segment_rfm(rfm: pd.DataFrame) -> pd.DataFrame:
+    """Score recency, frequency and monetary value, then assign a business segment.
+
+    Expects the columns of the `q12_rfm_base` query. Shared by the notebook and
+    the Power BI export so both show exactly the same segments.
+    """
+    rfm = rfm.copy()
+    # Recency uses business thresholds (7, 30, 60, 90 days); frequency and spend use quintiles
+    rfm["R"] = pd.cut(rfm["recency_days"], bins=[-1, 7, 30, 60, 90, np.inf], labels=[5, 4, 3, 2, 1]).astype(int)
+    rfm["F"] = pd.qcut(rfm["frequency_180d"].rank(method="first"), 5, labels=[1, 2, 3, 4, 5]).astype(int)
+    rfm["M"] = pd.qcut(rfm["card_spend_180d"].rank(method="first"), 5, labels=[1, 2, 3, 4, 5]).astype(int)
+    high_balance = rfm["balance_at_period_end"].quantile(0.75)
+
+    def segment(row) -> str:
+        # Rules are evaluated in order: the first matching rule gives the segment
+        if row.R >= 4 and row.F >= 4 and row.M >= 4:
+            return "Champions"             # active this month, frequent, high card spend
+        if row.F <= 2 and row.balance_at_period_end >= high_balance:
+            return "Épargnants peu actifs"  # low activity but top 25 % balance
+        if row.R == 1:
+            return "Endormis"              # no activity for more than 90 days
+        if row.R <= 3:
+            return "À risque"              # no activity for 31 to 90 days
+        if row.F >= 3:
+            return "Clients réguliers"
+        return "Occasionnels"              # recent but infrequent activity
+
+    rfm["segment"] = rfm.apply(segment, axis=1)
+    return rfm
+
+
 @cache
 def _engine():
     return db.get_engine()
@@ -37,7 +72,7 @@ def _engine():
 @cache
 def _queries() -> dict[str, str]:
     queries = {}
-    for file_name in ("03_data_quality_checks.sql", "05_business_analysis.sql"):
+    for file_name in ("03_data_quality_checks.sql", "05_business_analysis.sql", "06_powerbi_export.sql"):
         queries.update(db.load_named_queries(SQL_DIR / file_name))
     return queries
 
