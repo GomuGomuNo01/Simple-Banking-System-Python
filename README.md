@@ -409,8 +409,8 @@ Les listes d'actions sont prêtes à l'emploi : [clients proches de la dormance]
 Prérequis : Python 3.11 ou plus récent, MySQL 8.0 ou plus récent (WampServer démarré). Guide détaillé pour PyCharm et WampServer : [docs/04_environnement_pycharm_wampserver.md](docs/04_environnement_pycharm_wampserver.md).
 
 ```bash
-git clone https://github.com/GomuGomuNo01/Simple-Banking-System-Python-.git
-cd Simple-Banking-System-Python-
+git clone https://github.com/GomuGomuNo01/Simple-Banking-System-Python.git
+cd Simple-Banking-System-Python
 python -m venv .venv
 .venv\Scripts\activate
 python -m pip install -r requirements.txt
