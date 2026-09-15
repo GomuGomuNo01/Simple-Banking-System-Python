@@ -1,0 +1,68 @@
+/// Paiements carte réussis agrégés par mois, canal et catégorie de commerçant.
+table 'Dépenses carte'
+	lineageTag: ef3d411f-be74-54d0-b737-5d5642765753
+
+	column Mois
+		dataType: dateTime
+		formatString: mmmm yyyy
+		isHidden
+		lineageTag: 09d5d15d-0df4-58fd-9e87-76f9f6f399c5
+		summarizeBy: none
+		sourceColumn: Mois
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Code canal'
+		dataType: string
+		isHidden
+		lineageTag: 8e4106b8-1454-51a7-bf4b-274a07647c62
+		summarizeBy: none
+		sourceColumn: Code canal
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Catégorie'
+		dataType: string
+		lineageTag: 4a52ec4d-2515-57d8-922c-836c2297de9d
+		summarizeBy: none
+		sourceColumn: Catégorie
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Type de dépense'
+		dataType: string
+		lineageTag: 49d506db-f509-5aa7-a365-a7ce3b088265
+		summarizeBy: none
+		sourceColumn: Type de dépense
+
+		annotation SummarizationSetBy = Automatic
+
+	column Paiements
+		dataType: int64
+		formatString: #,##0
+		lineageTag: aac796c9-c174-58f4-9117-b63cb0d55d4a
+		summarizeBy: none
+		sourceColumn: Paiements
+
+		annotation SummarizationSetBy = Automatic
+
+	column Montant
+		dataType: double
+		formatString: #,##0.00 €
+		lineageTag: 8d235f46-f16f-5446-af21-9270cde9cae0
+		summarizeBy: none
+		sourceColumn: Montant
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Dépenses carte' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierDonnees & "fait_depenses_carte.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    TypedColumns = Table.TransformColumnTypes(PromotedHeaders, {{"Mois", type date}, {"Code canal", type text}, {"Catégorie", type text}, {"Type de dépense", type text}, {"Paiements", Int64.Type}, {"Montant", type number}}, "en-US")
+				in
+				    TypedColumns
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,21 @@
+model Model
+	culture: fr-FR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: fr-FR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["DossierDonnees", "Calendrier", "Canal", "Comptes", "Activité mensuelle", "Opérations", "Dépenses carte", "Rétention cohortes"]
+
+ref table Calendrier
+ref table Canal
+ref table Comptes
+ref table 'Activité mensuelle'
+ref table 'Opérations'
+ref table 'Dépenses carte'
+ref table 'Rétention cohortes'
+ref table Mesures

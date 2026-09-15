@@ -1,0 +1,69 @@
+/// Comptes actifs par cohorte d'ouverture, canal et nombre de mois depuis l'ouverture.
+table 'Rétention cohortes'
+	lineageTag: 6d4f4ac1-09e8-570b-ad1e-590ac74c3d4e
+
+	column 'Mois ouverture'
+		dataType: dateTime
+		formatString: mmmm yyyy
+		isHidden
+		lineageTag: fd9addf5-e35c-5407-b09c-0b9a3dd08a14
+		summarizeBy: none
+		sourceColumn: Mois ouverture
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cohorte
+		dataType: string
+		lineageTag: 09ac5ab7-5dd8-5d87-a29c-cfcf65925f7d
+		summarizeBy: none
+		sourceColumn: Cohorte
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Code canal'
+		dataType: string
+		isHidden
+		lineageTag: 7787779c-0b85-538e-8318-35637bb301d3
+		summarizeBy: none
+		sourceColumn: Code canal
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mois depuis ouverture'
+		dataType: int64
+		formatString: 0
+		lineageTag: 35a21238-f57f-5e6f-b5cb-f9394910a6b1
+		summarizeBy: none
+		sourceColumn: Mois depuis ouverture
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Comptes actifs'
+		dataType: int64
+		formatString: #,##0
+		lineageTag: f6f26bf5-0528-55ee-8408-ede3ff4c3f9b
+		summarizeBy: none
+		sourceColumn: Comptes actifs
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Taille cohorte'
+		dataType: int64
+		formatString: #,##0
+		lineageTag: bf125ec2-fcbc-5946-ba73-341465ab263a
+		summarizeBy: none
+		sourceColumn: Taille cohorte
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Rétention cohortes' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierDonnees & "fait_retention_cohortes.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    TypedColumns = Table.TransformColumnTypes(PromotedHeaders, {{"Mois ouverture", type date}, {"Cohorte", type text}, {"Code canal", type text}, {"Mois depuis ouverture", Int64.Type}, {"Comptes actifs", Int64.Type}, {"Taille cohorte", Int64.Type}}, "en-US")
+				in
+				    TypedColumns
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "SBS_Bank"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "01b6ff8f-e769-57cd-82e9-cdb967d4ad2f"
+  }
+}

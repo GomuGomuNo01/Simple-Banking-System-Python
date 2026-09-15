@@ -1,0 +1,36 @@
+relationship 7a533672-d6fd-5cb5-ac35-022393ac7dfe
+	fromColumn: Comptes.'Code canal'
+	toColumn: Canal.'Code canal'
+
+relationship 6e7ae649-c30c-5984-801f-43375aa59a03
+	fromColumn: 'Activité mensuelle'.'Id compte'
+	toColumn: Comptes.'Id compte'
+
+relationship 265710f1-60fc-5ebb-84dd-fc80c6c5c865
+	fromColumn: 'Activité mensuelle'.Mois
+	toColumn: Calendrier.Mois
+
+relationship cdd3b266-827d-5ae7-96e0-0c57e360f8bb
+	fromColumn: 'Opérations'.Mois
+	toColumn: Calendrier.Mois
+
+relationship 3c412655-e1fc-5556-bdee-02a746603a89
+	fromColumn: 'Opérations'.'Code canal'
+	toColumn: Canal.'Code canal'
+
+relationship ab27d96a-6c26-55cb-8d0a-5322e10d8c8a
+	fromColumn: 'Dépenses carte'.Mois
+	toColumn: Calendrier.Mois
+
+relationship c3886c80-56c0-5820-9f8a-ca78ddab6250
+	fromColumn: 'Dépenses carte'.'Code canal'
+	toColumn: Canal.'Code canal'
+
+relationship ec9ca721-5394-50c6-9650-6ddcdd5f4871
+	fromColumn: 'Rétention cohortes'.'Code canal'
+	toColumn: Canal.'Code canal'
+
+relationship ed6cb346-37f7-54b1-bb45-a6a6c056f031
+	isActive: false
+	fromColumn: Comptes.'Mois ouverture'
+	toColumn: Calendrier.Mois

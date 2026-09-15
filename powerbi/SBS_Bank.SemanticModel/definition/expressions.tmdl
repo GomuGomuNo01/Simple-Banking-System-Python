@@ -1,0 +1,4 @@
+expression DossierDonnees = "D:\FORMATIONS\2- Databases with SQL and Python\Simple Banking System (Python)\powerbi\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 127cc99b-171b-508d-8c1f-c17449205655
+
+	annotation PBI_ResultType = Text

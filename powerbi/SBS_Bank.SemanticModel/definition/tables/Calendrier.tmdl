@@ -1,0 +1,70 @@
+/// Dimension mois de la période analysée (janvier 2025 à juin 2026).
+table Calendrier
+	lineageTag: e44370bd-1bca-5617-9272-f33fc201c75c
+
+	column Mois
+		dataType: dateTime
+		formatString: mmmm yyyy
+		lineageTag: 6330bed1-2c26-529a-94de-15140ad99c06
+		summarizeBy: none
+		sourceColumn: Mois
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Libellé mois'
+		dataType: string
+		lineageTag: 42597b95-1b03-5224-983a-5ec946e6f3f2
+		summarizeBy: none
+		sourceColumn: Libellé mois
+		sortByColumn: 'Ordre mois'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Année'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7f634dc0-660f-5250-acf0-8a09f4df184e
+		summarizeBy: none
+		sourceColumn: Année
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Numéro mois'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 9c28e332-77ec-54ef-82f4-22824720a33b
+		summarizeBy: none
+		sourceColumn: Numéro mois
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre
+		dataType: string
+		lineageTag: 83801bd1-538a-57a6-b96a-87758fad35c0
+		summarizeBy: none
+		sourceColumn: Trimestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ordre mois'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 8672220f-e033-53c1-b63b-b5e4df800c4f
+		summarizeBy: none
+		sourceColumn: Ordre mois
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendrier = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierDonnees & "dim_mois.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    TypedColumns = Table.TransformColumnTypes(PromotedHeaders, {{"Mois", type date}, {"Libellé mois", type text}, {"Année", Int64.Type}, {"Numéro mois", Int64.Type}, {"Trimestre", type text}, {"Ordre mois", Int64.Type}}, "en-US")
+				in
+				    TypedColumns
+
+	annotation PBI_ResultType = Table

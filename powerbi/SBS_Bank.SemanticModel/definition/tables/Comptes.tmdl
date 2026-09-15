@@ -1,0 +1,195 @@
+/// Une ligne par compte : profil, activation, statut de cycle de vie, segment RFM et soldes au 30 juin 2026.
+table Comptes
+	lineageTag: 429f3fbe-e701-5989-af07-98a8739b7f9c
+
+	column 'Id compte'
+		dataType: int64
+		formatString: 0
+		lineageTag: e2b1a805-08d8-5622-8569-177454d3e414
+		summarizeBy: none
+		sourceColumn: Id compte
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Id client'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7aae8011-c632-520a-bf4e-5151ccc304ee
+		summarizeBy: none
+		sourceColumn: Id client
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Code canal'
+		dataType: string
+		isHidden
+		lineageTag: d37abef0-fe6d-50d3-bc18-6a683f96931c
+		summarizeBy: none
+		sourceColumn: Code canal
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tranche âge'
+		dataType: string
+		lineageTag: a10f352c-80c0-5122-80c6-80ecc23aae32
+		summarizeBy: none
+		sourceColumn: Tranche âge
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ville
+		dataType: string
+		lineageTag: 6adafa6d-de0f-5451-8075-b748e137e1b7
+		summarizeBy: none
+		sourceColumn: Ville
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mois ouverture'
+		dataType: dateTime
+		formatString: mmmm yyyy
+		lineageTag: e12e8676-247d-5b0e-970a-32972b559ac1
+		summarizeBy: none
+		sourceColumn: Mois ouverture
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date ouverture'
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 136d789d-c837-5203-ac87-ebccaaab83f7
+		summarizeBy: none
+		sourceColumn: Date ouverture
+
+		annotation SummarizationSetBy = Automatic
+
+	column Statut
+		dataType: string
+		lineageTag: d4601a0f-603d-5e3d-a7b5-66bd98f35b36
+		summarizeBy: none
+		sourceColumn: Statut
+		sortByColumn: 'Ordre statut'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ordre statut'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 4d9d3e3f-0aa5-5a7b-a1ff-f76c14d6a02c
+		summarizeBy: none
+		sourceColumn: Ordre statut
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Segment RFM'
+		dataType: string
+		lineageTag: a4a3af67-3a3d-5cd8-907c-1495e15e3746
+		summarizeBy: none
+		sourceColumn: Segment RFM
+		sortByColumn: 'Ordre segment'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ordre segment'
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: b5c25cd5-d288-5bca-9251-25e519211d8e
+		summarizeBy: none
+		sourceColumn: Ordre segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Jours avant premier dépôt'
+		dataType: int64
+		formatString: 0
+		lineageTag: da341191-60da-51c3-a1b9-f19ff5d7921e
+		summarizeBy: none
+		sourceColumn: Jours avant premier dépôt
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Alimenté sous 7 jours'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7a897e2c-3458-5016-9537-6ba313c3b3b0
+		summarizeBy: none
+		sourceColumn: Alimenté sous 7 jours
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Alimenté sous 30 jours'
+		dataType: int64
+		formatString: 0
+		lineageTag: 6cae3ccf-8635-5543-b968-15d83705e18b
+		summarizeBy: none
+		sourceColumn: Alimenté sous 30 jours
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Éligible activation'
+		dataType: int64
+		formatString: 0
+		lineageTag: ebe4fc09-4f09-5f83-8128-26c21c64696c
+		summarizeBy: none
+		sourceColumn: Éligible activation
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Jours depuis dernière activité'
+		dataType: int64
+		formatString: 0
+		lineageTag: 892242d2-87a0-5f03-bac5-c6a662ee1ed1
+		summarizeBy: none
+		sourceColumn: Jours depuis dernière activité
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Solde fin de période'
+		dataType: double
+		formatString: #,##0.00 €
+		lineageTag: c9df6afe-62b9-5441-9698-4fb1eca9fc12
+		summarizeBy: none
+		sourceColumn: Solde fin de période
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dépenses carte'
+		dataType: double
+		formatString: #,##0.00 €
+		lineageTag: 3ea13281-468f-5d4a-a3d4-84f5d5d85f53
+		summarizeBy: none
+		sourceColumn: Dépenses carte
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Paiements carte'
+		dataType: int64
+		formatString: #,##0
+		lineageTag: 3b2b40f1-8543-520d-92b3-e0c85ca340af
+		summarizeBy: none
+		sourceColumn: Paiements carte
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Paiements refusés'
+		dataType: int64
+		formatString: #,##0
+		lineageTag: 5a279891-98d6-53a3-be28-b77f1379095a
+		summarizeBy: none
+		sourceColumn: Paiements refusés
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Comptes = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierDonnees & "dim_compte.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    TypedColumns = Table.TransformColumnTypes(PromotedHeaders, {{"Id compte", Int64.Type}, {"Id client", Int64.Type}, {"Code canal", type text}, {"Tranche âge", type text}, {"Ville", type text}, {"Mois ouverture", type date}, {"Date ouverture", type date}, {"Statut", type text}, {"Ordre statut", Int64.Type}, {"Segment RFM", type text}, {"Ordre segment", Int64.Type}, {"Jours avant premier dépôt", Int64.Type}, {"Alimenté sous 7 jours", Int64.Type}, {"Alimenté sous 30 jours", Int64.Type}, {"Éligible activation", Int64.Type}, {"Jours depuis dernière activité", Int64.Type}, {"Solde fin de période", type number}, {"Dépenses carte", type number}, {"Paiements carte", Int64.Type}, {"Paiements refusés", Int64.Type}}, "en-US")
+				in
+				    TypedColumns
+
+	annotation PBI_ResultType = Table

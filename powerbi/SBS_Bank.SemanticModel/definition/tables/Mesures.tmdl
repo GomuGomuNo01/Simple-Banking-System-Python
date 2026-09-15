@@ -1,0 +1,198 @@
+/// Mesures DAX du rapport, regroupées par thème.
+table Mesures
+	lineageTag: 9186f7fd-450f-5fd5-83e2-11d59ba51d02
+
+	measure Comptes = COUNTROWS ( Comptes )
+		formatString: #,##0
+		displayFolder: 1. Portefeuille
+		lineageTag: 3a51f4cf-9fbf-51f8-ba86-8b957ae21350
+
+	measure 'Comptes actifs' = CALCULATE ( [Comptes], Comptes[Statut] = "Actif" )
+		formatString: #,##0
+		displayFolder: 1. Portefeuille
+		lineageTag: 7136d82d-2738-5bc9-8927-1346ba61761e
+
+	measure 'Comptes dormants' = CALCULATE ( [Comptes], Comptes[Statut] = "Dormant" )
+		formatString: #,##0
+		displayFolder: 1. Portefeuille
+		lineageTag: c88aeb8f-5a7c-53bc-a42f-01e54d5a868c
+
+	measure 'Comptes jamais alimentés' = CALCULATE ( [Comptes], Comptes[Statut] = "Jamais alimenté" )
+		formatString: #,##0
+		displayFolder: 1. Portefeuille
+		lineageTag: 9144ceeb-2d48-55ef-90a6-73ef8f4246fa
+
+	measure 'Comptes clôturés' = CALCULATE ( [Comptes], Comptes[Statut] = "Clôturé" )
+		formatString: #,##0
+		displayFolder: 1. Portefeuille
+		lineageTag: 7433bc0d-307f-588d-b4fb-5a74a25a7f80
+
+	measure 'Taux de comptes actifs' = DIVIDE ( [Comptes actifs], [Comptes] )
+		formatString: 0.0 %;-0.0 %;0.0 %
+		displayFolder: 1. Portefeuille
+		lineageTag: e2c0e872-57fc-515b-93e9-0c2aeefc5642
+
+	measure 'Nouveaux comptes' = CALCULATE ( [Comptes], USERELATIONSHIP ( Comptes[Mois ouverture], Calendrier[Mois] ) )
+		formatString: #,##0
+		displayFolder: 1. Portefeuille
+		lineageTag: 0246ca7e-e07b-56c6-8039-c5b7635146e0
+
+	measure 'Comptes actifs du mois' = CALCULATE ( DISTINCTCOUNT ( 'Activité mensuelle'[Id compte] ), 'Activité mensuelle'[Client actif] = 1 )
+		formatString: #,##0
+		displayFolder: 1. Portefeuille
+		lineageTag: b57adf6a-a36e-56cb-a4dc-077bcc249f92
+
+	measure 'Comptes actifs dernier mois' =
+			VAR DernierMois = MAX ( Calendrier[Mois] )
+			RETURN
+			    CALCULATE ( [Comptes actifs du mois], Calendrier[Mois] = DernierMois )
+		formatString: #,##0
+		displayFolder: 1. Portefeuille
+		lineageTag: 4b5cc63e-8156-5c7e-addd-bb9d13e28568
+
+	measure Encours = SUM ( Comptes[Solde fin de période] )
+		formatString: #,##0 €
+		displayFolder: 2. Valeur
+		lineageTag: cc89459d-1863-55f0-9230-3c3b9b6d7e75
+
+	measure 'Encours comptes dormants' = CALCULATE ( [Encours], Comptes[Statut] = "Dormant" )
+		formatString: #,##0 €
+		displayFolder: 2. Valeur
+		lineageTag: b1219a5a-1f8d-5b0b-9994-1680a1ef7204
+
+	measure 'Solde moyen' = AVERAGE ( Comptes[Solde fin de période] )
+		formatString: #,##0 €
+		displayFolder: 2. Valeur
+		lineageTag: abda9327-560f-5155-9249-671d749e8038
+
+	measure 'Dépenses carte' = SUM ( 'Dépenses carte'[Montant] )
+		formatString: #,##0 €
+		displayFolder: 2. Valeur
+		lineageTag: 45d7d5a6-b459-51f9-ad86-77f7c05ea23e
+
+	measure 'Paiements carte' = SUM ( 'Dépenses carte'[Paiements] )
+		formatString: #,##0
+		displayFolder: 2. Valeur
+		lineageTag: e421c833-1dea-55c8-8418-1badb5d20bf4
+
+	measure 'Panier moyen' = DIVIDE ( [Dépenses carte], [Paiements carte] )
+		formatString: #,##0.00 €
+		displayFolder: 2. Valeur
+		lineageTag: 5f0be901-54d8-5eec-af30-164451eae890
+
+	measure 'Part des comptes segmentés' =
+			IF (
+			    SELECTEDVALUE ( Comptes[Segment RFM] ) = "Hors segmentation",
+			    BLANK (),
+			    DIVIDE (
+			        [Comptes],
+			        CALCULATE ( [Comptes], REMOVEFILTERS ( Comptes[Segment RFM], Comptes[Ordre segment] ), Comptes[Segment RFM] <> "Hors segmentation" )
+			    )
+			)
+		formatString: 0.0 %;-0.0 %;0.0 %
+		displayFolder: 2. Valeur
+		lineageTag: 4cbe12e9-97d3-5b82-9b97-24eb251c00db
+
+	measure 'Part des encours segmentés' =
+			IF (
+			    SELECTEDVALUE ( Comptes[Segment RFM] ) = "Hors segmentation",
+			    BLANK (),
+			    DIVIDE (
+			        [Encours],
+			        CALCULATE ( [Encours], REMOVEFILTERS ( Comptes[Segment RFM], Comptes[Ordre segment] ), Comptes[Segment RFM] <> "Hors segmentation" )
+			    )
+			)
+		formatString: 0.0 %;-0.0 %;0.0 %
+		displayFolder: 2. Valeur
+		lineageTag: 0f5dfd40-9f26-506e-8827-8268e9b28b45
+
+	measure 'Taux activation 7 jours' =
+			DIVIDE (
+			    CALCULATE ( [Comptes], Comptes[Alimenté sous 7 jours] = 1, Comptes[Éligible activation] = 1 ),
+			    CALCULATE ( [Comptes], Comptes[Éligible activation] = 1 )
+			)
+		formatString: 0.0 %;-0.0 %;0.0 %
+		displayFolder: 3. Activation et rétention
+		lineageTag: d5080dce-ae33-5860-a6e1-2eb0e4def5e3
+
+	measure 'Taux jamais alimentés' =
+			DIVIDE (
+			    CALCULATE ( [Comptes], Comptes[Statut] = "Jamais alimenté", Comptes[Éligible activation] = 1 ),
+			    CALCULATE ( [Comptes], Comptes[Éligible activation] = 1 )
+			)
+		formatString: 0.0 %;-0.0 %;0.0 %
+		displayFolder: 3. Activation et rétention
+		lineageTag: d1f4b770-bd48-531d-94ba-2842fdc3a7fa
+
+	measure 'Délai moyen premier dépôt (jours)' = AVERAGE ( Comptes[Jours avant premier dépôt] )
+		formatString: 0.0
+		displayFolder: 3. Activation et rétention
+		lineageTag: 80142d59-00e4-5d65-b365-5039ddc1b894
+
+	measure 'Taux de rétention' = DIVIDE ( SUM ( 'Rétention cohortes'[Comptes actifs] ), SUM ( 'Rétention cohortes'[Taille cohorte] ) )
+		formatString: 0.0 %;-0.0 %;0.0 %
+		displayFolder: 3. Activation et rétention
+		lineageTag: 73a9d072-4990-59dc-853a-666395b0b611
+
+	measure 'Rétention à 6 mois' = CALCULATE ( [Taux de rétention], 'Rétention cohortes'[Mois depuis ouverture] = 6 )
+		formatString: 0.0 %;-0.0 %;0.0 %
+		displayFolder: 3. Activation et rétention
+		lineageTag: a24e9024-023f-503d-83a7-cc0059535edc
+
+	measure Tentatives = SUM ( 'Opérations'[Tentatives] )
+		formatString: #,##0
+		displayFolder: 4. Qualité de service
+		lineageTag: b66263ec-0b96-5ba6-9a0d-c6356ca3d873
+
+	measure 'Échecs' = CALCULATE ( [Tentatives], 'Opérations'[Résultat] = "Échec" )
+		formatString: #,##0
+		displayFolder: 4. Qualité de service
+		lineageTag: 93d52f84-b7d4-5b85-9c33-153d580104f5
+
+	measure 'Taux d''échec' = DIVIDE ( [Échecs], [Tentatives] )
+		formatString: 0.0 %;-0.0 %;0.0 %
+		displayFolder: 4. Qualité de service
+		lineageTag: 43e45cf7-5177-5703-958f-83978b3f234b
+
+	measure 'Taux de refus carte' = CALCULATE ( [Taux d'échec], 'Opérations'[Type opération] = "Paiement carte" )
+		formatString: 0.0 %;-0.0 %;0.0 %
+		displayFolder: 4. Qualité de service
+		lineageTag: eda4884d-edb7-59ed-8be3-16848f56ecc4
+
+	measure 'Paiements carte refusés' = CALCULATE ( [Échecs], 'Opérations'[Type opération] = "Paiement carte" )
+		formatString: #,##0
+		displayFolder: 4. Qualité de service
+		lineageTag: bcb52b5b-f0f7-565a-b7c5-32c2efd30f90
+
+	measure 'Montant des paiements refusés' = CALCULATE ( SUM ( 'Opérations'[Montant demandé] ), 'Opérations'[Résultat] = "Échec", 'Opérations'[Type opération] = "Paiement carte" )
+		formatString: #,##0 €
+		displayFolder: 4. Qualité de service
+		lineageTag: 0e47382a-3d79-50ac-937d-7e10562e3949
+
+	measure 'Taux d''échec connexion' = CALCULATE ( [Taux d'échec], 'Opérations'[Type opération] = "Connexion" )
+		formatString: 0.0 %;-0.0 %;0.0 %
+		displayFolder: 4. Qualité de service
+		lineageTag: 39fc3255-bd6a-5467-a7a6-92ab36c00984
+
+	measure 'Interception Luhn' =
+			DIVIDE (
+			    CALCULATE ( [Échecs], 'Opérations'[Motif échec] = "numéro de carte invalide" ),
+			    CALCULATE ( [Échecs], 'Opérations'[Motif échec] IN { "numéro de carte invalide", "carte inconnue" } )
+			)
+		formatString: 0.0 %;-0.0 %;0.0 %
+		displayFolder: 4. Qualité de service
+		lineageTag: 61bf1d04-f20d-5d11-b0a0-22e7b144b09f
+
+	column Valeur
+		dataType: int64
+		isHidden
+		lineageTag: 7a3b1375-5318-5d77-902a-0c71cfe022c3
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Valeur]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Mesures = calculated
+		mode: import
+		source = ROW ( "Valeur", 1 )

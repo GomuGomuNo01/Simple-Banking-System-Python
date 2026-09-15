@@ -1,0 +1,84 @@
+/// Tentatives d'opérations agrégées par mois, canal, type, résultat et motif d'échec.
+table 'Opérations'
+	lineageTag: 09939e8a-17cc-5f32-ab60-badc14affb16
+
+	column Mois
+		dataType: dateTime
+		formatString: mmmm yyyy
+		isHidden
+		lineageTag: 3369ad86-596f-578b-9df8-29400658ec90
+		summarizeBy: none
+		sourceColumn: Mois
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Code canal'
+		dataType: string
+		isHidden
+		lineageTag: 5735ab20-7b9b-5c7c-a684-ceeeb29a7234
+		summarizeBy: none
+		sourceColumn: Code canal
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Type opération'
+		dataType: string
+		lineageTag: b3a2f00a-28f0-543b-ad8a-3ed2e83d974c
+		summarizeBy: none
+		sourceColumn: Type opération
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Résultat'
+		dataType: string
+		lineageTag: db81ea82-0f9e-5177-b01b-f03ea4b7948a
+		summarizeBy: none
+		sourceColumn: Résultat
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Motif échec'
+		dataType: string
+		lineageTag: 0c0b1c16-c739-563e-826f-b84250569cdc
+		summarizeBy: none
+		sourceColumn: Motif échec
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Type et motif'
+		dataType: string
+		lineageTag: 8df0121c-73ce-5b96-a144-947926d4bd9e
+		summarizeBy: none
+		sourceColumn: Type et motif
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tentatives
+		dataType: int64
+		formatString: #,##0
+		lineageTag: 57798919-9afc-578f-85bb-7f5855921369
+		summarizeBy: none
+		sourceColumn: Tentatives
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Montant demandé'
+		dataType: double
+		formatString: #,##0.00 €
+		lineageTag: bf82eb91-b42f-5e5f-a1a9-efcf86b34f23
+		summarizeBy: none
+		sourceColumn: Montant demandé
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Opérations' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DossierDonnees & "fait_operations.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    TypedColumns = Table.TransformColumnTypes(PromotedHeaders, {{"Mois", type date}, {"Code canal", type text}, {"Type opération", type text}, {"Résultat", type text}, {"Motif échec", type text}, {"Type et motif", type text}, {"Tentatives", Int64.Type}, {"Montant demandé", type number}}, "en-US")
+				in
+				    TypedColumns
+
+	annotation PBI_ResultType = Table
