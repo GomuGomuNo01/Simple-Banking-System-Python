@@ -24,13 +24,23 @@ Projet de Data Analyst mené de bout en bout : d'une application bancaire qui pr
 | **Résultat clé** | Les clients apportés par les partenaires sont 2,4 fois moins nombreux à alimenter leur compte sous 7 jours (35 % contre 84 %) |
 | **Livrables** | Base documentée, requêtes SQL, notebook commenté, tableau de bord Power BI de 4 pages, 6 recommandations priorisées, listes d'actions pour le CRM |
 
-![Tableau de bord Power BI : vue d'ensemble](reports/powerbi/01_vue_ensemble.png)
+## Aperçu
+
+**Le tableau de bord de pilotage** ([détail](#13-tableau-de-bord-power-bi)) : filtrage sur le canal Partenaires, le portefeuille passe de 1 881 à 209 comptes et le taux de comptes actifs de 75,0 % à 56,5 %, puis parcours des quatre pages.
+
+![Démonstration du tableau de bord Power BI](reports/demos/demo_powerbi.gif)
+
+**L'application bancaire qui produit les données** ([détail](#9-application-bancaire)) : création de compte, code PIN refusé, virement bloqué par le contrôle de Luhn après une faute de frappe, puis virement accepté.
+
+![Démonstration de l'application bancaire](reports/demos/demo_application_bancaire.gif)
+
+*Deux sessions réelles, enregistrées sur ce projet. Les numéros de carte et les codes PIN sont fictifs et la base de démonstration est supprimée après l'enregistrement.*
 
 ## Parcours de lecture
 
 | Profil | Temps | Sections conseillées |
 |---|---|---|
-| Recruteur, manager, RH | 3 minutes | [En bref](#en-bref), [Principaux résultats](#12-principaux-résultats), [Tableau de bord Power BI](#13-tableau-de-bord-power-bi), [Recommandations](#15-recommandations-métier), [Compétences](#23-compétences-démontrées) |
+| Recruteur, manager, RH | 3 minutes | [Aperçu animé](#aperçu), [Principaux résultats](#12-principaux-résultats), [Tableau de bord Power BI](#13-tableau-de-bord-power-bi), [Recommandations](#15-recommandations-métier), [Compétences](#23-compétences-démontrées) |
 | Data Analyst, profil technique | 15 minutes | [Modèle des données](#4-structure-et-modèle-des-données), [Qualité des données](#10-préparation-et-qualité-des-données), [requêtes SQL](sql), [notebook](notebooks/analyse_activite_sbs_bank.ipynb), [projet Power BI](powerbi), [tests](#18-fiabilité-et-tests) |
 
 ## Sommaire
@@ -212,9 +222,7 @@ Les requêtes restent dans des fichiers `.sql` et le notebook les exécute par l
 
 L'application en ligne de commande est le système opérationnel qui alimente la base. Elle reprend le menu de la consigne initiale et l'enrichit.
 
-![Démonstration de l'application bancaire](reports/demos/demo_application_bancaire.gif)
-
-*Session réelle enregistrée sur une base de démonstration jetable : création de deux comptes, code PIN refusé, dépôt, virement bloqué par le contrôle de Luhn après une faute de frappe, puis virement accepté, retrait et solde. Les numéros de carte et les codes PIN affichés sont fictifs et la base est supprimée à la fin de l'enregistrement.*
+Démonstration animée de bout en bout : voir l'[aperçu](#aperçu) en haut de page.
 
 | Menu principal | Menu du compte connecté |
 |---|---|
@@ -333,9 +341,7 @@ Le notebook démontre les conclusions ; le tableau de bord permet à la directio
 | Pages | Vue d'ensemble, Acquisition et rétention, Qualité de service, Valeur et segments |
 | Interaction | Filtre par canal d'acquisition synchronisé sur les 4 pages |
 
-![Démonstration du tableau de bord Power BI](reports/demos/demo_powerbi.gif)
-
-*Navigation réelle dans Power BI Desktop : filtrage sur le canal Partenaires (le portefeuille passe de 1 881 à 209 comptes et le taux de comptes actifs de 75,0 % à 56,5 %), effacement du filtre, puis parcours des quatre pages du rapport.*
+Démonstration animée de la navigation et du filtrage : voir l'[aperçu](#aperçu) en haut de page.
 
 ```mermaid
 flowchart LR
