@@ -76,6 +76,8 @@ Les mesures sont rangées dans la table `Mesures`, par dossier : portefeuille, v
 
 Chaque page porte un filtre **Canal d'acquisition**, synchronisé entre les pages.
 
+Une démonstration animée de la navigation et du filtrage est disponible dans le [README](../README.md#13-tableau-de-bord-power-bi).
+
 ## Ouvrir et actualiser le rapport
 
 **Option rapide, sans installation technique :** télécharger [SBS_Bank.pbix](https://github.com/GomuGomuNo01/Simple-Banking-System-Python/releases/latest/download/SBS_Bank.pbix) depuis les [releases](https://github.com/GomuGomuNo01/Simple-Banking-System-Python/releases) et l'ouvrir dans Power BI Desktop 2.157 ou plus récent. Le rapport et les données sont réunis dans ce fichier : aucune actualisation n'est nécessaire. Dans Power BI Desktop, les boutons et les liens s'activent avec **Ctrl + clic**.

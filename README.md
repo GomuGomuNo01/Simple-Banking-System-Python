@@ -212,6 +212,10 @@ Les requêtes restent dans des fichiers `.sql` et le notebook les exécute par l
 
 L'application en ligne de commande est le système opérationnel qui alimente la base. Elle reprend le menu de la consigne initiale et l'enrichit.
 
+![Démonstration de l'application bancaire](reports/demos/demo_application_bancaire.gif)
+
+*Session réelle enregistrée sur une base de démonstration jetable : création de deux comptes, code PIN refusé, dépôt, virement bloqué par le contrôle de Luhn après une faute de frappe, puis virement accepté, retrait et solde. Les numéros de carte et les codes PIN affichés sont fictifs et la base est supprimée à la fin de l'enregistrement.*
+
 | Menu principal | Menu du compte connecté |
 |---|---|
 | Créer un compte (carte et code PIN générés) | Consulter le solde |
@@ -328,6 +332,10 @@ Le notebook démontre les conclusions ; le tableau de bord permet à la directio
 | Calculs | 30 mesures DAX (`CALCULATE`, `USERELATIONSHIP`, `REMOVEFILTERS`, variables) |
 | Pages | Vue d'ensemble, Acquisition et rétention, Qualité de service, Valeur et segments |
 | Interaction | Filtre par canal d'acquisition synchronisé sur les 4 pages |
+
+![Démonstration du tableau de bord Power BI](reports/demos/demo_powerbi.gif)
+
+*Navigation réelle dans Power BI Desktop : filtrage sur le canal Partenaires (le portefeuille passe de 1 881 à 209 comptes et le taux de comptes actifs de 75,0 % à 56,5 %), effacement du filtre, puis parcours des quatre pages du rapport.*
 
 ```mermaid
 flowchart LR
@@ -479,6 +487,7 @@ Les indicateurs de suivi sont disponibles dans le tableau de bord Power BI. Les 
 │   ├── data_quality_report.md    Rapport qualité généré
 │   ├── figures/                  Graphiques du notebook
 │   ├── powerbi/                  Captures du tableau de bord
+│   ├── demos/                    Démonstrations animées (GIF)
 │   ├── liste_prevention_dormance.csv
 │   └── segmentation_rfm.csv
 └── tests/                        Tests unitaires et d'intégration
