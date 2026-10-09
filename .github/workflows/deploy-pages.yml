@@ -1,0 +1,47 @@
+name: Déployer la présentation vidéo sur GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "assets/video/**"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch:   # déclenchement manuel possible
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+
+      - name: Assemble site (page de présentation)
+        run: |
+          mkdir -p _site/presentation
+          cp assets/video/index.html assets/video/SBS_Bank_presentation.mp4 assets/video/presentation-poster.jpg _site/presentation/
+          printf '%s\n' '<!doctype html>' '<html lang="fr"><head><meta charset="utf-8">' '<title>SBS Bank Analytics</title>' '<meta http-equiv="refresh" content="0; url=./presentation/"></head>' '<body style="background:#F4F0E8;color:#111315;font-family:Bahnschrift,system-ui,sans-serif;padding:40px">' '<p><a href="./presentation/" style="color:#0B7A57">Voir la présentation vidéo du projet</a></p>' '</body></html>' > _site/index.html
+
+      - name: Upload site as Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
