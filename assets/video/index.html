@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SBS Bank Analytics : présentation vidéo</title>
+  <meta name="description" content="La Business Intelligence de SBS Bank en 40 secondes : la question posée, le principe, le moteur du rapport, le tableau de bord en action et ses avantages.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect x='6' y='22' width='88' height='56' rx='10' fill='%230B7A57'/><rect x='18' y='54' width='26' height='8' rx='3' fill='%23FF5B3A'/></svg>">
+  <style>
+    :root {
+      --bg: #F4F0E8;
+      --paper: #FBF9F4;
+      --ink: #111315;
+      --stone: #6E6C66;
+      --sand: #DED4C2;
+      --emerald: #0B7A57;
+      --coral: #FF5B3A;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Bahnschrift", "DIN Alternate", "Segoe UI", system-ui, sans-serif;
+      padding: 48px 16px 40px;
+    }
+    main { max-width: 1120px; margin: 0 auto; }
+    header { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
+    .card {
+      width: 52px; height: 34px; border-radius: 6px; background: var(--emerald);
+      position: relative; flex: none;
+    }
+    .card::after {
+      content: ""; position: absolute; left: 8px; bottom: 8px; width: 16px; height: 5px;
+      border-radius: 2px; background: var(--coral);
+    }
+    .brand { font-weight: 700; letter-spacing: 0.06em; }
+    .brand span { font-weight: 300; color: var(--stone); }
+    .kicker { margin: 0; color: var(--stone); font-size: 0.9rem; letter-spacing: 0.14em; text-transform: uppercase; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.05; margin: 6px 0 10px; }
+    h1 em { font-style: normal; color: var(--emerald); }
+    p.lead { color: var(--stone); margin: 0 0 30px; max-width: 760px; font-size: 1.1rem; }
+    .player {
+      width: 100%;
+      border: 10px solid var(--ink);
+      border-radius: 14px;
+      overflow: hidden;
+      background: var(--ink);
+    }
+    video { display: block; width: 100%; height: auto; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+    nav a {
+      color: var(--ink); text-decoration: none; padding: 13px 24px;
+      border: 2px solid var(--ink); font-weight: 600; letter-spacing: 0.02em;
+    }
+    nav a.primary { background: var(--emerald); border-color: var(--emerald); color: var(--paper); }
+    nav a:hover, nav a:focus-visible { outline: 3px solid var(--coral); outline-offset: 2px; }
+    p.note { color: var(--stone); font-size: 0.95rem; margin-top: 28px; max-width: 760px; border-left: 4px solid var(--coral); padding-left: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="card" aria-hidden="true"></div>
+      <div class="brand">SBS BANK <span>ANALYTICS</span></div>
+    </header>
+    <p class="kicker">Présentation vidéo</p>
+    <h1>La Business Intelligence<br>de SBS Bank <em>en 40 secondes</em></h1>
+    <p class="lead">La question de la direction, le principe de la chaîne de traitement, le moteur du rapport (modèle en étoile et DAX), le tableau de bord Power BI en action et ce que la BI change à la décision.</p>
+
+    <div class="player">
+      <video controls playsinline preload="metadata" poster="presentation-poster.jpg">
+        <source src="SBS_Bank_presentation.mp4" type="video/mp4">
+        Votre navigateur ne lit pas cette vidéo : <a href="SBS_Bank_presentation.mp4">la télécharger</a>.
+      </video>
+    </div>
+
+    <nav>
+      <a class="primary" href="https://github.com/GomuGomuNo01/Simple-Banking-System-Python/releases/latest/download/SBS_Bank.pbix">Télécharger le rapport .pbix</a>
+      <a href="https://github.com/GomuGomuNo01/Simple-Banking-System-Python">Voir le projet sur GitHub</a>
+    </nav>
+
+    <p class="note">Vidéo en motion design animée image par image en Python (Pillow). La musique est une composition originale, synthétisée note par note pour cette vidéo et synchronisée avec chaque changement de scène : elle ne contient aucun extrait d'œuvre existante et ne pose aucune question de droits.</p>
+  </main>
+</body>
+</html>

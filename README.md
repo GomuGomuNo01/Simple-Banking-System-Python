@@ -13,6 +13,10 @@ Projet de Data Analyst mené de bout en bout : d'une application bancaire qui pr
 
 *Fichier unique, données incluses, ouverture directe dans Power BI Desktop sans configuration. Toutes les versions sont disponibles sur la [page des releases](https://github.com/GomuGomuNo01/Simple-Banking-System-Python/releases).*
 
+[![Présentation vidéo du projet SBS Bank, 40 secondes](assets/video/presentation-poster.jpg)](https://gomugomuno01.github.io/Simple-Banking-System-Python/presentation/)
+
+*La présentation vidéo (40 s, 1080p, avec le son) : cliquer sur l'image pour la regarder sur la page « Présentation » publiée avec GitHub Pages. Elle explique le principe de la Business Intelligence appliquée à SBS Bank : la question posée par la direction, la chaîne de traitement de la donnée brute à la décision, le moteur du rapport (modèle en étoile et mesures DAX), le tableau de bord en action, puis ce que la BI change à la décision. Animée image par image en Python, elle est accompagnée d'une musique originale composée spécialement pour elle et calée sur chaque changement de scène, sans aucun droit à céder.*
+
 ## En bref
 
 | | |
@@ -40,7 +44,7 @@ Projet de Data Analyst mené de bout en bout : d'une application bancaire qui pr
 
 | Profil | Temps | Sections conseillées |
 |---|---|---|
-| Recruteur, manager, RH | 3 minutes | [Aperçu animé](#aperçu), [Principaux résultats](#12-principaux-résultats), [Tableau de bord Power BI](#13-tableau-de-bord-power-bi), [Recommandations](#15-recommandations-métier), [Compétences](#23-compétences-démontrées) |
+| Recruteur, manager, RH | 3 minutes | [Vidéo de 40 s](https://gomugomuno01.github.io/Simple-Banking-System-Python/presentation/), [Aperçu animé](#aperçu), [Principaux résultats](#12-principaux-résultats), [Tableau de bord Power BI](#13-tableau-de-bord-power-bi), [Recommandations](#15-recommandations-métier), [Compétences](#23-compétences-démontrées) |
 | Data Analyst, profil technique | 15 minutes | [Modèle des données](#4-structure-et-modèle-des-données), [Qualité des données](#10-préparation-et-qualité-des-données), [requêtes SQL](sql), [notebook](notebooks/analyse_activite_sbs_bank.ipynb), [projet Power BI](powerbi), [tests](#18-fiabilité-et-tests) |
 
 ## Sommaire
@@ -461,6 +465,8 @@ Les indicateurs de suivi sont disponibles dans le tableau de bord Power BI. Les 
 ├── requirements.txt              Dépendances Python
 ├── pyproject.toml                Package sbs_bank et configuration pytest
 ├── .env.example                  Modèle de configuration de la connexion MySQL
+├── .github/workflows/            Déploiement de la présentation vidéo sur GitHub Pages
+├── assets/video/                 Présentation vidéo : MP4, affiche, page de lecture
 ├── data/raw/                     Données générées (non versionnées, recréées par le pipeline)
 ├── docs/                         Documentation du projet (voir section 21)
 ├── sql/
@@ -572,6 +578,7 @@ Ouvrir le tableau de bord depuis les sources : lancer `powerbi/SBS_Bank.pbip` da
 | Fichiers exclus | Secrets (`.env`), environnement virtuel, données brutes régénérables, cache Power BI |
 | Formats versionnables | Requêtes en `.sql`, rapport Power BI au format texte PBIP, fins de ligne normalisées (`.gitattributes`) |
 | Publication | Le fichier `.pbix` avec données est publié dans les releases GitHub, versionnées par tag (`v1.0`), et non dans l'historique Git |
+| Publication | Présentation vidéo déployée automatiquement sur GitHub Pages par GitHub Actions à chaque mise à jour de `main` |
 | Reproductibilité | Graine aléatoire fixe, pipeline complet en une commande, dépendances figées dans `requirements.txt` |
 
 Ce dépôt est un projet personnel de portfolio. Les suggestions sont les bienvenues via les issues ; toute modification passe par une pull request validée par l'auteur.
